@@ -45,7 +45,7 @@ post_asset_folder: false
 relative_link: false
 future: true
 highlight:
-  enable: false
+  enable: true
   line_number: true
   auto_detect: false
   tab_replace: ''
@@ -68,7 +68,7 @@ prism_plugin:
 # per_page: Posts displayed per page. (0 = disable pagination)
 # order_by: Posts order. (Order by date descending by default)
 index_generator_plus:
-  path: ''
+  path: ''"
   per_page: 18
 
 
@@ -134,5 +134,5 @@ feed:
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/worker2011/test
+  repo: https://github.com/worker2011/worker2011.github.io
   branch: main
