@@ -44,19 +44,20 @@ render_drafts: false
 post_asset_folder: false
 relative_link: false
 future: true
+
+syntax_highlighter: prism_plugin
 highlight:
   enable: true
   line_number: true
   auto_detect: false
   tab_replace: ''
-  wrap: true
+  wrap: false
   hljs: false
 prismjs:
   enable: false
   preprocess: true
   line_number: true
   tab_replace: ''
-
 prism_plugin:
   mode: 'preprocess'    # realtime/preprocess
   theme: 'material-light'
@@ -129,6 +130,13 @@ feed:
   content_limit: 140
   content_limit_delim: ' '
   order_by: -date
+
+githubEmojis:
+  enable: true
+  className: github-emoji
+  inject: true
+  styles:
+  customEmojis:
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment

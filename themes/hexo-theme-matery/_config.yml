@@ -16,9 +16,9 @@ menu:
   About:
     url: /about
     icon: fas fa-user-circle
-  #Contact:
-   # url: /contact
-    #icon: fas fa-comments
+  Contact:
+    url: /contact
+    icon: fas fa-comments
   #Friends:
    # url: /friends
     #icon: fas fa-address-book
@@ -171,7 +171,7 @@ reward:
 copyright:
   enable: true
   minCharNumber: 1 # 至少复制多少个字符就追加版权信息.
-  description: 本文章著作权归作者Leo2011所有，任何形式的转载都请注明出处。
+  description: 本文章著作权归作者 Leo2011 所有，任何形式的转载都请注明出处。
 
 # Whether to activate the mathjax, this is a global configuration, but the post still does not open the mathjax rendering.
 # Considering that the mathjax loading is time consuming,
@@ -211,24 +211,24 @@ profile:
 # If you don't want to display this `My Projects` content, you can deactivate or delete this configuration.
 # 在“关于”页面配置"我的项目"信息，如果你不需要这些信息则可以将其设置为不激活或者将其删除.
 myProjects:
-  enable: false
+  enable: true
   data:
-    hexo-theme-matery:
-      icon: fas fa-file-alt
+    Beautify-Hydro-Vijos:
+      icon: fas uikit
       iconBackground: 'linear-gradient(to bottom right, #66BB6A 0%, #81C784 100%)'
-      url: http://github.com/blinkfox/hexo-theme-matery
-      desc: This is a Hexo blog theme with 'Material Design' and responsive design.
-    Fenix:
-        icon: fas fa-database
-        iconBackground: 'linear-gradient(to bottom right, #F06292 0%, #EF5350 100%)'
-        url: https://github.com/blinkfox/fenix
-        desc: 这是 Spring Data JPA 复杂或动态 SQL 查询的扩展库。
-    typora-vue-theme:
-        icon: fas fa-file-alt
-        iconBackground: 'linear-gradient(to bottom right, #29B6F6 0%, #1E88E5 100%)'
-        url: https://github.com/blinkfox/typora-vue-theme
-        desc: This is a typora theme inspired by Vue document style.
-
+      url: https://github.com/worker2011/Beautify-Hydro-Vijos/
+      desc: 对于Hydro(vj5)和Vijos(vj4)两个OJ的美化脚本。
+    #Fenix:
+    #    icon: fas fa-database
+    #    iconBackground: 'linear-gradient(to bottom right, #F06292 0%, #EF5350 100%)'
+    #    url: https://github.com/blinkfox/fenix
+    #    desc: 这是 Spring Data JPA 复杂或动态 SQL 查询的扩展库。
+    #typora-vue-theme:
+    #    icon: fas fa-file-alt
+    #    iconBackground: 'linear-gradient(to bottom right, #29B6F6 0%, #1E88E5 100%)'
+    #    url: https://github.com/blinkfox/typora-vue-theme
+    #    desc: This is a typora theme inspired by Vue document style.
+	#
 # config my skills informations in about page.
 # If you don't want to display this `My Skills` content, you can deactivate or delete this configuration.
 # 在“关于”页面配置"我的技能"信息，如果你不需要这些信息则可以将其设置为不激活或者将其删除.
@@ -380,7 +380,7 @@ changyan:
 # 配置是否在 header 中显示 fork me on github 的图标，默认为true，你可以修改为你的仓库地址.
 githubLink:
   enable: true
-  url: https://github.com/blinkfox/hexo-theme-matery
+  url: https://github.com/worker2011
   title: Fork Me
 
 # The password verification feature of read post. To use this feature,
@@ -518,8 +518,8 @@ daovoice:
 
 # Tidio online contact
 tidio:
-  enable: false
-  public_key:
+  enable: true
+  public_key: scac6ckfhymogep8uygy6k4qp7mrgh04
 
 # 腾讯兔小巢，见https://txc.qq.com/
 tuxiaochao:
@@ -631,3 +631,6 @@ bbtime:
  appId: # 你的appId
  appKey: # 你的appKey
  serverURLs: # https://你的api
+ 
+translate:
+  enable: true

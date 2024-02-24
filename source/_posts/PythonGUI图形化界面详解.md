@@ -32,7 +32,7 @@ upd：这里的命令行界面连图形化界面都不是，应该叫文本用�
 pip install easygui
 ```
 在你的终端中运行这段代码。如果出现了下面的东西，那么就说明安装easygui成功啦（以后我介绍的模块除了特殊说明外，都要用类似的方法安装，就不在提了）
-```
+```shell
 Looking in indexes: https://mirrors.sustech.edu.cn/pypi/simple
 Collecting easygui
   Using cached https://mirrors.sustech.edu.cn/pypi/packages/8e/a7/b276ff776533b423710a285c8168b52551cb2ab0855443131fdc7fd8c16f/easygui-0.98.3-py2.py3-none-any.whl (92 kB)
