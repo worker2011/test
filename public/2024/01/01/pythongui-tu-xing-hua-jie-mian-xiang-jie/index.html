@@ -29,7 +29,9 @@
 
     <script src="/libs/jquery/jquery.min.js"></script>
 
-<meta name="generator" content="Hexo 7.1.1"><link rel="alternate" href="/atom.xml" title="Leo2011的博客" type="application/atom+xml">
+<meta name="generator" content="Hexo 7.1.1">
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/atom.xml" title="Leo2011的博客" type="application/atom+xml">
 <link rel="stylesheet" href="/css/prism-material-light.css" type="text/css">
 <link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head>
 
@@ -118,6 +120,17 @@
     
   </li>
   
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/contact" class="waves-effect waves-light">
+      
+      <i class="fas fa-comments" style="zoom: 0.6;"></i>
+      
+      <span>留言板</span>
+    </a>
+    
+  </li>
+  
   <li>
     <a href="#searchModal" class="modal-trigger waves-effect waves-light">
       <i id="searchIcon" class="fas fa-search" title="搜索" style="zoom: 0.85;"></i>
@@ -195,6 +208,17 @@
 			    <i class="fa-fw fas fa-user-circle"></i>
 			
 			关于
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/contact" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-comments"></i>
+			
+			留言板
 		</a>
           
         </li>
@@ -334,9 +358,12 @@
     }
 
     .toc-widget {
-        width: 345px;
-        padding-left: 20px;
-    }
+    	width: 345px;
+   	 padding-left: 20px;
+   	 background-color: rgb(255, 255, 255,0.7);
+    	border-radius: 10px;
+    	box-shadow: 0 10px 35px 2px rgba(0, 0, 0, .15), 0 5px 15px rgba(0, 0, 0, .07), 0 2px 5px -5px rgba(0, 0, 0, .1) !important;
+}
 
     .toc-widget .toc-title {
         padding: 35px 0 15px 17px;
@@ -508,7 +535,7 @@ eg<span class="token punctuation">.</span>msgbox<span class="token punctuation">
 <pre class="line-numbers language-python"><code class="language-python">eg<span class="token punctuation">.</span>msgbox<span class="token punctuation">(</span>msg<span class="token operator">=</span><span class="token string">"A + B Problem"</span><span class="token punctuation">,</span> title<span class="token operator">=</span><span class="token string">"Leo2011"</span><span class="token punctuation">,</span> ok_button<span class="token operator">=</span><span class="token string">"I AK IOI!"</span><span class="token punctuation">)</span>
 <span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 <p>不出所料的话，应该是这样的：<br><img src="/img/2023-12-29_22-50-26.png"></p>
-<p>看，我们用<code>title=&quot;Leo2011&quot;</code>把标题改成了”Leo2011”，用<code>ok_button=&quot;I AK IOI!&quot;</code>把下面的按钮改成了”I AK IOI!”。</p>
+<p>看，我们用<code>title="Leo2011"</code>把标题改成了”Leo2011”，用<code>ok_button="I AK IOI!"</code>把下面的按钮改成了”I AK IOI!”。</p>
 <p>这就msgbox能干的事了。</p>
 <p>下面，咱来看另外的几个家伙：</p>
 <ul>
@@ -536,7 +563,7 @@ eg<span class="token punctuation">.</span>msgbox<span class="token punctuation">
 <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 <p>  []里的字符相当于快捷键，你按下这个键就会认为你选了这个选项。ccbox只能有两个选项（否则解释器会炸）。</p>
 </li>
-<li><p>boolbox&#x2F;ynbox</p>
+<li><p>boolbox/ynbox</p>
 <p>  同ccbox，不讲。</p>
 </li>
 <li><p>choicebox</p>
@@ -551,7 +578,7 @@ eg<span class="token punctuation">.</span>msgbox<span class="token punctuation">
 <p>  跟choicebox一样，只不过choicebox会返回你选中的文本，而indexbox会返回你选中的那货在你的选项列表里的下标。</p>
 </li>
 <li><p>multchoicebox</p>
-<p>  <del>有一堆choicebox在一个窗口里？</del><br>  这次easygui不按套路出牌了，界面长这样：<br>  <img src="/img/2023-12-30_17-19-34.png"><br>  <code>Select All</code>就是全选，<code>Clear All</code>就是全不选，剩下两个老朋友了。<br>  返回值是这样的<code>[&#39;Debug&#39;, &#39;AC!&#39;]</code>。它会按你选中的选项在选项列表里的相对位置排成一个新列表。</p>
+<p>  <del>有一堆choicebox在一个窗口里？</del><br>  这次easygui不按套路出牌了，界面长这样：<br>  <img src="/img/2023-12-30_17-19-34.png"><br>  <code>Select All</code>就是全选，<code>Clear All</code>就是全不选，剩下两个老朋友了。<br>  返回值是这样的<code>['Debug', 'AC!']</code>。它会按你选中的选项在选项列表里的相对位置排成一个新列表。</p>
 </li>
 <li><p>integerbox</p>
 <pre class="line-numbers language-python"><code class="language-python">s <span class="token operator">=</span> eg<span class="token punctuation">.</span>integerbox<span class="token punctuation">(</span>msg<span class="token operator">=</span><span class="token string">"请输入一个数"</span><span class="token punctuation">,</span> title<span class="token operator">=</span>tit<span class="token punctuation">,</span> default<span class="token operator">=</span><span class="token number">5</span><span class="token punctuation">,</span> lowerbound<span class="token operator">=</span><span class="token number">3</span><span class="token punctuation">,</span> upperbound<span class="token operator">=</span><span class="token number">7</span><span class="token punctuation">)</span>
@@ -577,16 +604,16 @@ t<span class="token punctuation">.</span>done<span class="token punctuation">(</
 <li><p>home</p>
 <p>  木有参数。回到原点(0, 0)，也就是屏幕正中央的起始位置（这在你画图画懵13的时候很有用）。</p>
 </li>
-<li><p>forward&#x2F;fd</p>
+<li><p>forward/fd</p>
 <p>  1个参数 $k$，表示你想要让这个画笔沿笔头方向前进 $k$ 个像素。如<code>fd(1000)</code>即让画笔从当前位置前进1000个像素。</p>
 </li>
-<li><p>backward&#x2F;bk&#x2F;back</p>
+<li><p>backward/bk/back</p>
 <p>  1个参数 $k$，相当于<code>fd(-k)</code>，即沿笔头方向后退 $k$ 步。</p>
 </li>
-<li><p>left&#x2F;lt</p>
+<li><p>left/lt</p>
 <p>  1个参数 $k$，表示你想让画笔左转 $k^\circ$。</p>
 </li>
-<li><p>right&#x2F;rt</p>
+<li><p>right/rt</p>
 <p>  1个参数 $k$， 表示你想让画笔右转 $k^\circ$。</p>
 </li>
 <li><p>goto</p>
@@ -598,10 +625,10 @@ t<span class="token punctuation">.</span>done<span class="token punctuation">(</
 <li><p>dot</p>
 <p>  也是画一个圆。最多两个参数：$d$ 和 color。 $d$ 指要画的圆的直径，color是一个字符串，表示要画的圆的颜色。与circle不同，dot画的圆是实心的，而circle默认情况下是空心的。</p>
 </li>
-<li><p>penup&#x2F;up&#x2F;pu</p>
+<li><p>penup/up/pu</p>
 <p>  抬起笔，此后在落下笔之前所有的操作都不会留下痕迹。</p>
 </li>
-<li><p>pendown&#x2F;pd&#x2F;down</p>
+<li><p>pendown/pd/down</p>
 <p>  落下笔。一般可以这么使：</p>
 <pre class="line-numbers language-python"><code class="language-python"><span class="token keyword">def</span> <span class="token function">move</span><span class="token punctuation">(</span>x<span class="token punctuation">,</span> y<span class="token punctuation">)</span><span class="token punctuation">:</span>
     t<span class="token punctuation">.</span>pu<span class="token punctuation">(</span><span class="token punctuation">)</span>
@@ -640,7 +667,7 @@ t<span class="token punctuation">.</span>done<span class="token punctuation">(</
 </tr>
 </tbody></table>
 </li>
-<li><p>pensize&#x2F;width</p>
+<li><p>pensize/width</p>
 <p>  一个参数 $w$，表示画笔粗细。</p>
 </li>
 <li><p>pencolor</p>
@@ -673,10 +700,10 @@ t<span class="token punctuation">.</span>pencolor<span class="token punctuation"
 <li><p>write</p>
 <p>  主要有2个参数，文字和设置。可以把文字设置成属性后写上去，如开头的例子。</p>
 </li>
-<li><p>hideturtle&#x2F;ht</p>
+<li><p>hideturtle/ht</p>
 <p>  隐藏画笔，能加速。</p>
 </li>
-<li><p>showturtle&#x2F;st</p>
+<li><p>showturtle/st</p>
 <p>  显示画笔。</p>
 </li>
 <li><p>shape</p>
@@ -987,18 +1014,17 @@ t<span class="token punctuation">.</span>pencolor<span class="token punctuation"
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;本篇
-            </div>
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2024/01/01/pythongui-tu-xing-hua-jie-mian-xiang-jie/">
+                <a href="/2024/02/24/hexo-sliding-spoiler-yan-shi/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="PythonGUI图形化界面详解">
+                        <img src="/medias/featureimages/16.jpg" class="responsive-img" alt="hexo-sliding-spoiler演示">
                         
-                        <span class="card-title">PythonGUI图形化界面详解</span>
+                        <span class="card-title">hexo-sliding-spoiler演示</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -1008,9 +1034,9 @@ t<span class="token punctuation">.</span>pencolor<span class="token punctuation"
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2024-01-01
-                            </span>
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2024-02-24
+                        </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
@@ -1019,12 +1045,11 @@ t<span class="token punctuation">.</span>pencolor<span class="token punctuation"
                         </span>
                     </div>
                 </div>
-
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/%E6%A0%87%E7%AD%BE/Python/">
-                        <span class="chip bg-color">Python</span>
+                    <a href="/%E6%A0%87%E7%AD%BE/%E6%B5%8B%E8%AF%95/">
+                        <span class="chip bg-color">测试</span>
                     </a>
                     
                 </div>
@@ -1113,7 +1138,7 @@ t<span class="token punctuation">.</span>pencolor<span class="token punctuation"
             + '来源: Leo2011的博客<br />'
             + '文章作者: Leo2011<br />'
             + '文章链接: <a href="' + url + '">' + url + '</a><br />'
-            + '本文章著作权归作者Leo2011所有，任何形式的转载都请注明出处。';
+            + '本文章著作权归作者 Leo2011 所有，任何形式的转载都请注明出处。';
 
         selection.selectAllChildren(newdiv);
         window.setTimeout(function () {bodyElement.removeChild(newdiv);}, 200);
@@ -1262,7 +1287,7 @@ t<span class="token punctuation">.</span>pencolor<span class="token punctuation"
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">7k</span>&nbsp;字
+                class="white-color">7.1k</span>&nbsp;字
             
             
             
