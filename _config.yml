@@ -141,12 +141,7 @@ githubEmojis:
 # 通用站点地图
 sitemap:
   path: sitemap.xml
-
-webPushNotification:
-  webpushrKey: "your webpushr rest api key"
-  webpushrAuthToken: "your webpushr authorize token"
-  trackingCode: "BOrXwX_jzBcEs_C72jFEI4A_xeT9C7MIMnbBk6Bq-dYiu0JwNVyZn815s5TXwKa4R0iTwJs0m_-6HOeg3XTm3SA"
-
+s
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
