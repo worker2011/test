@@ -1,7 +1,7 @@
 ---
 title: PythonGUI图形化界面详解
 date: 2024-01-01 15:56:32
-tags: Python
+tags: "Python"
 mathjax: true
 ---
 
@@ -25,7 +25,7 @@ upd：这里的命令行界面连图形化界面都不是，应该叫文本用�
 
 >Tips：如果您已安装Python和一个另外的IDE，可以忽略此步骤。但如果后续发现有模块运行不了且代码、模块等正常，可以按照此步骤重新安装。
 
-见[这里](https://www.cnblogs.com/leo2011/p/17938782)
+见[这里](https://leo2011.pages.dev/2024/01/01/python-huan-jing-an-zhuang-yu-pei-zhi/)
 
 # 2 easygui
 ```shell

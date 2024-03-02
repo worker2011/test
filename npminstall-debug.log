@@ -3,9 +3,9 @@
   registry: 'https://registry.npmmirror.com',
   pkgs: [
     {
-      name: 'hexo',
-      version: '6.7.8',
-      type: 'version',
+      name: 'hexo-generator-index',
+      version: 'lastest',
+      type: 'tag',
       alias: undefined,
       arg: [Result]
     }
@@ -15,7 +15,7 @@
   cacheDir: 'C:\\Users\\ThinkPad\\.npminstall_tarball',
   env: {
     npm_config_registry: 'https://registry.npmmirror.com',
-    npm_config_argv: '{"remain":[],"cooked":["--fix-bug-versions","--china","--userconfig=C:\\\\Users\\\\ThinkPad\\\\.cnpmrc","--disturl=https://cdn.npmmirror.com/binaries/node","--registry=https://registry.npmmirror.com","hexo@6.7.8"],"original":["--fix-bug-versions","--china","--userconfig=C:\\\\Users\\\\ThinkPad\\\\.cnpmrc","--disturl=https://cdn.npmmirror.com/binaries/node","--registry=https://registry.npmmirror.com","hexo@6.7.8"]}',
+    npm_config_argv: '{"remain":[],"cooked":["--fix-bug-versions","--china","--userconfig=C:\\\\Users\\\\ThinkPad\\\\.cnpmrc","--disturl=https://cdn.npmmirror.com/binaries/node","--registry=https://registry.npmmirror.com","hexo-generator-index@lastest","--save"],"original":["--fix-bug-versions","--china","--userconfig=C:\\\\Users\\\\ThinkPad\\\\.cnpmrc","--disturl=https://cdn.npmmirror.com/binaries/node","--registry=https://registry.npmmirror.com","hexo-generator-index@lastest","--save"]}',
     npm_config_user_agent: 'npminstall/7.12.0 npm/? node/v20.10.0 win32 x64',
     npm_config_cache: 'C:\\Users\\ThinkPad\\.npminstall_tarball',
     NODE: 'D:\\nodejs\\node.exe',

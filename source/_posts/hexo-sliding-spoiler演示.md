@@ -1,7 +1,7 @@
 ---
 title: hexo-sliding-spoiler演示
-date: 2024-02-24 18:17:49
-tags: 测试
+date: -24 18:17:49
+tags: "测试"
 mathjax: true
 ---
 
@@ -44,6 +44,4 @@ print("Hello World!")
 $2 ^ {10} = 1024$
 
 {% endspoiler %}
-
-
 

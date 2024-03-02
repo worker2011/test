@@ -19,6 +19,9 @@ menu:
   Contact:
     url: /contact
     icon: fas fa-comments
+  MBTI:
+	url: /mbti
+	icon: fas fa-book-bookmark
   #Friends:
    # url: /friends
     #icon: fas fa-address-book
@@ -218,11 +221,11 @@ myProjects:
       iconBackground: 'linear-gradient(to bottom right, #66BB6A 0%, #81C784 100%)'
       url: https://github.com/worker2011/Beautify-Hydro-Vijos/
       desc: 对于Hydro(vj5)和Vijos(vj4)两个OJ的美化脚本。
-    #Fenix:
-    #    icon: fas fa-database
-    #    iconBackground: 'linear-gradient(to bottom right, #F06292 0%, #EF5350 100%)'
-    #    url: https://github.com/blinkfox/fenix
-    #    desc: 这是 Spring Data JPA 复杂或动态 SQL 查询的扩展库。
+    Easy-Hexo:
+        icon: fas fa-blogger
+        iconBackground: 'linear-gradient(to bottom right, #F06292 0%, #EF5350 100%)'
+        url: https://github.com/EasyHexo/Easy-Hexo
+        desc: 这是帮助大家使用Hexo自建博客的工具。博主负责hexo-sliding-spoiler插件及Decap-CMS配置项目的编写。
     #typora-vue-theme:
     #    icon: fas fa-file-alt
     #    iconBackground: 'linear-gradient(to bottom right, #29B6F6 0%, #1E88E5 100%)'

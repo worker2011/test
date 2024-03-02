@@ -89,7 +89,7 @@ pip install -e turtle-0.0.2
 
 # 1 安装PyCharm
 
-这样Python就整完了，安装PyCharm去（当然，如果你愿意用VSCode、Sublime之类的其它工具写代码，我也不拦着你，但切记不要用自带的IDLE写，原因嘛[这里](https://www.cnblogs.com/leo2011/p/17938779)有讲）。
+这样Python就整完了，安装PyCharm去（当然，如果你愿意用VSCode、Sublime之类的其它工具写代码，我也不拦着你，但切记不要用自带的IDLE写，原因嘛[这里](https://leo2011.pages.dev/2024/01/01/pythongui-tu-xing-hua-jie-mian-xiang-jie/)有讲）。
 
 [到这里](https://www.jetbrains.com.cn/pycharm/download/?section=windows)，把页面拉到底部，下载Community Edition就可以了（Professional Edition是付费的，而Community是免费的）。这次安装包是中文的，按指示操作就好。
 

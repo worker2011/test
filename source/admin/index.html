@@ -1,11 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="robots" content="noindex" />
-    <title>Decap-CMS——Leo2011的博客</title>
-  </head>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex" />
+  <title>Content Manager</title>
+</head>
+<body>
+  <!-- Include the script that builds the page and powers Decap CMS -->
   <script type="module">
     import Markdown from 'https://esm.sh/react-markdown@9?bundle' // 替换内置 markdown
     import remarkMath from 'https://esm.sh/remark-math@6.0.0?bundle' // 数学公式
@@ -30,8 +32,6 @@
     CMS.registerPreviewTemplate("posts", PostPreview); // posts是你的 collections 的 name 字段
   </script>
 
-  <body>
-    <!-- Include the script that builds the page and powers Decap CMS -->
-    <script src="https://cdn.jsdelivr.net/npm/decap-cms@^3.0.0/dist/decap-cms.js"></script>
-  </body>
+  <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+</body>
 </html>
