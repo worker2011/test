@@ -45,16 +45,17 @@ post_asset_folder: false
 relative_link: false
 future: true
 
-syntax_highlighter: prismjs
 highlight:
-  auto_detect: true
+  enable: true
+  auto_detect: false
   line_number: true
   line_threshold: 0
   tab_replace: ''
   exclude_languages:
   wrap: true
-  hljs: true
+  hljs: false
 prismjs:
+  enable: false
   preprocess: true
   line_number: true
   line_threshold: 0
@@ -141,6 +142,69 @@ githubEmojis:
 # 通用站点地图
 sitemap:
   path: sitemap.xml
+
+filter_optimize:
+  enable: true
+  # static resource versioning
+  versioning: false
+  css:
+    # minify all css files
+    minify: true
+    excludes:
+    # use preload to load css elements dynamically
+    delivery:
+      - '@fortawesome/fontawesome-free'
+      - 'fonts.googleapis.com'
+    # make specific css content inline into the html page
+    inlines:
+      # support full path only
+      - css/main.css
+  js:
+    # minify all js files
+    minify: true
+    excludes:
+    # remove the comments in each of the js files
+    remove_comments: false
+  html:
+    # minify all html files
+    minify: true
+    excludes:
+  # set the priority of this plugin,
+  # lower means it will be executed first, default of Hexo is 10
+  priority: 10
+
+# Change title and favicon when window is hidden and visible.
+title_change:
+  enable: true
+
+  # Enabling this feature on non-desktop devices may not be a good choice, but it depends on you.
+  onmobile: false
+
+  # Enable random title or not.
+  # Basically `random: true` means you have several titles to display and `random: false` means you have only one title to display.
+  # When `random: true`, YOU MUST FOLLOW the format which has been commented in two title options below.
+  # When `random: false`, please fill in the same line of the title option, like `title: one title`.
+  random: false
+
+  # Restore the original title after the specified time in milliseconds.
+  timeout: 1000
+
+  # Options when window is hidden.
+  hidden:
+    favicon: /img/g.jpg
+    title:
+      #- 404
+      #- φ(*￣0￣)
+      #- Waiting for you.
+	  - 你不要我了吗QwQ
+
+  # Options when window is visible.
+  visible:
+    favicon: /img/g.jpg
+    title:
+      #- 200
+      - 你可算回来啦(✿◡‿◡)！
+      #- Welcome back!
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
