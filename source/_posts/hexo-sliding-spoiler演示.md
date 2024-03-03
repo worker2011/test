@@ -2,9 +2,9 @@
 title: hexo-sliding-spoiler演示
 date: -24 18:17:49
 tags: "测试"
-mathjax: true
----
 
+---
+<!-- more -->
 {% spoiler 可以折叠词 %}
 
 

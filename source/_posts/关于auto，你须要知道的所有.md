@@ -4,7 +4,7 @@ date: 2024-01-01 15:38:34
 categories: "“你需要知道的所有”系列"
 tags: "C艹"
 ---
-
+<!-- more -->
 话说咱写 STL 的时候经常会要写迭代器，大概是这么一大串东西：
 
 `vector<int>::iterator iter = data.begin(); `

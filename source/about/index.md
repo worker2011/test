@@ -6,7 +6,6 @@ layout: "about"
 ---
 > Tips:$\texttt{Winning isn't everything, but wanting it is.}$ 获胜并不能代表一切，而求胜心则可以。
 
-
 ![](https://cards.jerryz.com.cn/api?img=2&color=21%2C208%2C196%2C1&date=2024-11-11&str=%E6%88%91%E7%9A%84%E7%94%9F%E6%97%A5&bilibili=%E8%94%9A%E8%93%9D%E5%A4%A9%E7%A9%BA%E6%B5%B7%E6%B4%8B&github=worker2011&site=https%3A%2F%2Fcnblogs.com%2Fleo2011&email=study86%40outlook.com&phone=17722667723&luogu=Leo2011&codeforces=Leo2011&qq=Leo2011&counter=Cards&gitee=ji-mingyu&wechat=Leo2011&microsoft=Ji+Mingyu&quote=%E7%A5%9D%E6%82%A8AK+IOI%EF%BC%81)
 ---
 

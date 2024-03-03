@@ -5,9 +5,9 @@ categories:
 - "题解"
 - "USACO"
 tags: "C艹"
-mathjax: true
----
 
+---
+<!-- more -->
 前情提要：这~~恐怕~~是最好想、最简单的一种做法。
 
 ---

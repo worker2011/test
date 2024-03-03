@@ -5,9 +5,9 @@ tags: C艹
 categories: 
 - 题解
 - USACO
-mathjax: true
----
 
+---
+<!-- more -->
 先说说暴力做法：
 
 每次遍历一遍，看看是否满足 $t_i + s \le c_i$，满足就计数，不满足就挂。单次时间复杂度显然为 $O(N)$，总得时间复杂度约为 $O(NQ)$，TLE是肯定的~
@@ -168,6 +168,7 @@ int main() {
 	}
 	return 0;
 }
+```
 {% endspoiler %}
 
 [AC记录~](https://www.luogu.com.cn/record/148784245)

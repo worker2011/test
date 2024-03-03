@@ -5,9 +5,9 @@ tags: Python
 cayegories: 
 - 题解
 - USACO
-mathjax: true
----
 
+---
+<!-- more -->
 ~~挑战题解区最短代码~~
 
 ---

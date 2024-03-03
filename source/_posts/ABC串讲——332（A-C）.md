@@ -5,9 +5,9 @@ tags: C艹
 categories: 
 - 题解
 - AT-ABC串讲
-mathjax: true
----
 
+---
+<!-- more -->
 # A Online Shopping
 
 模拟计算就得了。

@@ -34,4 +34,3 @@ collections:
       - {label: 'Body', name: 'body', widget: 'markdown', required: false}
       - {label: 'Comments', name: 'comments', widget: 'boolean', default: true, required: false}
       - {label: 'Top', name: 'top', widget: 'number', value_type: 'int', default: 2, required: false}
-	  - {label: 'MathJax', name: 'mathjax', widget: 'boolean', default: false, required: false}

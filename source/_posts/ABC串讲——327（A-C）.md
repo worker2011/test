@@ -5,8 +5,9 @@ tags: "C艹"
 categories: 
 - "题解"
 - "AT-ABC串讲"
-mathjax: true
+
 ---
+<!-- more -->
 # A ab
 
 $S$ 长度不超过 100，随便搞~

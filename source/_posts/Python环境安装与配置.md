@@ -3,9 +3,9 @@ title: Python环境安装与配置
 date: 2024-01-01 15:55:02
 tags: "Python"
 ---
-
-# 0安装Python
-## 0.0 下载安装Python
+<!-- more -->
+# 安装Python
+## 下载安装Python
 要用Python，那肯定得先装个Python呐！
 
 先把[Python官网](https://www.python.org/)扒出来。访问速度一般不咋滴，请耐心等待~
@@ -36,10 +36,10 @@ tags: "Python"
 
 ![](/img/2023-12-29_21-47-25.png)
 
-## 0.1 配置pip
+## 配置pip
 下一步，是配置pip。pip是用来管理外部库的，类似应用宝。pip默认的下载地址在国外，链接可能会TLE，需要配置一下。
 
-### 0.1.0 Linux/macOS用户：
+### Linux/macOS用户：
 打开配置文件 `~/.pip/pip.conf`（不存在就创建），修改如下：
 ```config
 [global]
@@ -57,11 +57,11 @@ trusted-host = https://pypi.tuna.tsinghua.edu.cn
 | 豆瓣镜像站 | [http://pypi.douban.com/simple/](http://pypi.douban.com/simple/) |
 | 中科大镜像站 | [ https://pypi.mirrors.ustc.edu.cn/simple](https://pypi.mirrors.ustc.edu.cn/simple)
 
-### 0.1.1 Windows用户
+### Windows用户
 
 conf文件在`C:\Users\xx\pip`（xx是你用户名），其它的照抄Linux/macOS的即可。
 
-## 0.2 升级turtle库
+## 升级turtle库
 
 这个步骤不是必须的，但很推荐操作。
 
@@ -87,7 +87,7 @@ pip install -e turtle-0.0.2
 
 现在应该就成功啦！
 
-# 1 安装PyCharm
+# 安装PyCharm
 
 这样Python就整完了，安装PyCharm去（当然，如果你愿意用VSCode、Sublime之类的其它工具写代码，我也不拦着你，但切记不要用自带的IDLE写，原因嘛[这里](https://leo2011.pages.dev/2024/01/01/pythongui-tu-xing-hua-jie-mian-xiang-jie/)有讲）。
 

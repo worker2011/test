@@ -2,10 +2,10 @@
 title: PythonGUI图形化界面详解
 date: 2024-01-01 15:56:32
 tags: "Python"
-mathjax: true
----
 
-# 0 简介
+---
+<!-- more -->
+# 简介
 
 话说你看到的软件是不是都是用图形化界面（Graphical User Interface, GUI）整出来的？
 
@@ -21,13 +21,13 @@ upd：这里的命令行界面连图形化界面都不是，应该叫文本用�
 
 根本不是一个等级的啊！于是，我们来用Python整一个真正的GUI吧！
 
-# 1 安装环境
+# 安装环境
 
 >Tips：如果您已安装Python和一个另外的IDE，可以忽略此步骤。但如果后续发现有模块运行不了且代码、模块等正常，可以按照此步骤重新安装。
 
 见[这里](https://leo2011.pages.dev/2024/01/01/python-huan-jing-an-zhuang-yu-pei-zhi/)
 
-# 2 easygui
+# easygui
 ```shell
 pip install easygui
 ```
@@ -152,7 +152,7 @@ eg.msgbox(msg="A + B Problem", title="Leo2011", ok_button="I AK IOI!")
 
 eaysgui确实很easy！
 
-# 3 turtle
+# turtle
 
 > Tips:实测Python turtle的不同版本在不同平台上可能会有所不同，本文以Windows 11 + Python 3.12.1为准。
 
