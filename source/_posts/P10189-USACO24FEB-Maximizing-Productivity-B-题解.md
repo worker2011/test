@@ -2,7 +2,7 @@
 title: P10189 [USACO24FEB] Maximizing Productivity B 题解
 date: 2024-02-29 20:56:06
 tags: Python
-cayegories: 
+categories: 
 - 题解
 - USACO
 

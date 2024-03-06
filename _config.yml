@@ -47,13 +47,13 @@ future: true
 
 highlight:
   enable: true
-  auto_detect: false
+  auto_detect: true
   line_number: true
   line_threshold: 0
   tab_replace: ''
   exclude_languages:
   wrap: true
-  hljs: false
+  hljs: true
 prismjs:
   enable: false
   preprocess: true
@@ -125,10 +125,10 @@ symbols_count_time:
 feed:
   type: atom
   path: atom.xml
-  limit: 20
+  limit: 512
   hub:
   content:
-  content_limit: 140
+  content_limit: 512
   content_limit_delim: ' '
   order_by: -date
 
@@ -205,6 +205,17 @@ title_change:
       #- 200
       - 你可算回来啦(✿◡‿◡)！
       #- Welcome back!
+
+
+excerpt:
+  depth: 10
+  excerpt_excludes: []
+  more_excludes: []
+  hideWholePostExcerpts: true
+
+auto_excerpt:
+  enable: true
+  length: 150
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
