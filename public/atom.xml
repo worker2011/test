@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Leo2011的博客</title>
+  
+  <subtitle>许许多多的平凡加在一起，就成了不平凡。</subtitle>
+  <link href="https://leo2011.pages.dev/atom.xml" rel="self"/>
+  
+  <link href="https://leo2011.pages.dev/"/>
+  <updated>2024-03-03T08:23:16.627Z</updated>
+  <id>https://leo2011.pages.dev/</id>
+  
+  <author>
+    <name>Leo2011</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>P10187 [USACO24FEB] Palindrome Game B 题解</title>
+    <link href="https://leo2011.pages.dev/2024/02/29/p10187-usaco24feb-palindrome-game-b-ti-jie/"/>
+    <id>https://leo2011.pages.dev/2024/02/29/p10187-usaco24feb-palindrome-game-b-ti-jie/</id>
+    <published>2024-02-29T13:15:31.000Z</published>
+    <updated>2024-03-03T08:23:16.627Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
+&lt;p&gt;先说说暴力做法：&lt;/p&gt;
+&lt;p&gt;每次遍历一遍，看看是否满足 &lt;span class=&quot;math inline&quot;&gt;&#92;(t_i + s &#92;le
+c_i&#92;)&lt;/span&gt;，满足就计数，不满足就挂。单次时间复杂度显然为 &lt;span class=&quot;math inline&quot;&gt;&#92;(O(N)&#92;)&lt;/span&gt;，总得时间复杂度约为 &lt;span class=&quot;math inline&quot;&gt;&#92;(O(NQ)&#92;)&lt;/span&gt;，TLE是肯定的~&lt;/p&gt;
+&lt;div class=&quot;spoiler collapsed&quot;&gt;
+    &lt;div class=&quot;spoiler-title&quot;&gt;
+        暴力代码
+    &lt;/div&gt;
+    &lt;div class=&quot;spoiler-content&quot;&gt;
+        &lt;figure class=&quot;highlight cpp&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span</summary>
+        
+      
+    
+    
+    
+    <category term="题解" scheme="https://leo2011.pages.dev/categories/%E9%A2%98%E8%A7%A3/"/>
+    
+    <category term="USACO" scheme="https://leo2011.pages.dev/categories/%E9%A2%98%E8%A7%A3/USACO/"/>
+    
+    
+    <category term="C艹" scheme="https://leo2011.pages.dev/tags/C%E8%89%B9/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>P10189 [USACO24FEB] Maximizing Productivity B 题解</title>
+    <link href="https://leo2011.pages.dev/2024/02/29/p10189-usaco24feb-maximizing-productivity-b-ti-jie/"/>
+    <id>https://leo2011.pages.dev/2024/02/29/p10189-usaco24feb-maximizing-productivity-b-ti-jie/</id>
+    <published>2024-02-29T12:56:06.000Z</published>
+    <updated>2024-03-05T14:29:06.303Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
+&lt;p&gt;&lt;del&gt;挑战题解区最短代码&lt;/del&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;回文数？数学题！打表找规律吧……&lt;/p&gt;
+&lt;p&gt;显然，&lt;span class=&quot;math inline&quot;&gt;&#92;(1 &#92;sim 9&#92;)&lt;/span&gt;
+都是回文数，先手赢（就一位你还想咋地啊）。&lt;/p&gt;
+&lt;p&gt;然后是 &lt;span class=&quot;math inline&quot;&gt;&#92;(10&#92;)&lt;/span&gt;。&lt;del&gt;样例&lt;/del&gt;告诉我们，这个不行。&lt;/p&gt;
+&lt;p&gt;接着是 &lt;span class=&quot;math inline&quot;&gt;&#92;(11 &#92;sim 19&#92;)&lt;/span&gt;，发现随便减个
+&lt;span class=&quot;math inline&quot;&gt;&#92;(1 &#92;sim 9&#92;)&lt;/span&gt; 就可以变成 &lt;span class=&quot;math inline&quot;&gt;&#92;(10&#92;)&lt;/span&gt;，而 &lt;span class=&quot;math inline&quot;&gt;&#92;(10&#92;)&lt;/span&gt;
+是后手赢。赢得就是后手的后手，那就是先手，可以。&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;math inline&quot;&gt;&#92;(20&#92;)&lt;/span&gt;？减个 &lt;span</summary>
+        
+      
+    
+    
+    
+    <category term="题解" scheme="https://leo2011.pages.dev/categories/%E9%A2%98%E8%A7%A3/"/>
+    
+    <category term="USACO" scheme="https://leo2011.pages.dev/categories/%E9%A2%98%E8%A7%A3/USACO/"/>
+    
+    
+    <category term="Python" scheme="https://leo2011.pages.dev/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2023游寄</title>
+    <link href="https://leo2011.pages.dev/2024/02/25/2023-you-ji/"/>
+    <id>https://leo2011.pages.dev/2024/02/25/2023-you-ji/</id>
+    <published>2024-02-25T12:05:42.680Z</published>
+    <updated>2024-03-03T09:46:18.849Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
+&lt;p&gt;按首次参加时间排序。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&quot;蓝桥stema&quot;&gt;蓝桥STEMA&lt;/h1&gt;
+&lt;p&gt;考点：家里（&lt;/p&gt;
+&lt;p&gt;打得最好的比赛之一。&lt;/p&gt;
+&lt;h2 id=&quot;年初场&quot;&gt;年初场&lt;/h2&gt;
+&lt;p&gt;选择题好简单，编程题就会前几道，没想到最后500+分进了GD省赛……&lt;/p&gt;
+&lt;p&gt;可惜省赛跟英语撞了，没打……&lt;/p&gt;
+&lt;h3 id=&quot;年末场&quot;&gt;年末场&lt;/h3&gt;
+&lt;p&gt;跟年初场差不多，编程题多了一道也多做了一道，最后居然进了前5%……&lt;/p&gt;
+&lt;p&gt;省赛还没开始……&lt;/p&gt;
+&lt;h1 id=&quot;itc&quot;&gt;ITC&lt;/h1&gt;
+&lt;p&gt;考点：家里&lt;/p&gt;
+&lt;p&gt;题目大多比较简单，不会一道编程题，城市赛1=后面的赛场就没再打了……&lt;/p&gt;
+&lt;h1 id=&quot;ccf&quot;&gt;CCF&lt;/h1&gt;
+&lt;h2 id=&quot;csp&quot;&gt;CSP&lt;/h2&gt;
+&lt;h3 id=&quot;day-0&quot;&gt;Day 0&lt;/h3&gt;
+&lt;p&gt;CSP-J/S 2023要开始了，蒟蒻Leo2011非常紧张！&lt;/p&gt;
+&lt;p&gt;不过准备的还行，但愿有个好成绩……&lt;/p&gt;
+&lt;h3 id=&quot;day-1&quot;&gt;Day</summary>
+        
+      
+    
+    
+    
+    <category term="年度游寄" scheme="https://leo2011.pages.dev/categories/%E5%B9%B4%E5%BA%A6%E6%B8%B8%E5%AF%84/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>几种最短路算法对比</title>
+    <link href="https://leo2011.pages.dev/2024/02/25/ji-chong-zui-duan-lu-suan-fa-dui-bi/"/>
+    <id>https://leo2011.pages.dev/2024/02/25/ji-chong-zui-duan-lu-suan-fa-dui-bi/</id>
+    <published>2024-02-25T12:04:40.030Z</published>
+    <updated>2024-03-03T08:01:52.418Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
+&lt;blockquote&gt;
+&lt;p&gt;众所周知，关于SPFA，它死了。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;几种最短路算法对比：&lt;/p&gt;
+&lt;table&gt;
+&lt;colgroup&gt;
+&lt;col style=&quot;width: 20%&quot;&gt;
+&lt;col style=&quot;width: 20%&quot;&gt;
+&lt;col style=&quot;width: 20%&quot;&gt;
+&lt;col style=&quot;width: 20%&quot;&gt;
+&lt;col style=&quot;width: 20%&quot;&gt;
+&lt;/colgroup&gt;
+&lt;thead&gt;
+&lt;tr class=&quot;header&quot;&gt;
+&lt;th style=&quot;text-align: center;&quot;&gt;名称&lt;/th&gt;
+&lt;th style=&quot;text-align: center;&quot;&gt;时间复杂度&lt;/th&gt;
+&lt;th style=&quot;text-align: center;&quot;&gt;优点&lt;/th&gt;
+&lt;th style=&quot;text-align: center;&quot;&gt;缺点&lt;/th&gt;
+&lt;th style=&quot;text-align: center;&quot;&gt;使用情况&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>B3929 [GESP202312 五级] 小杨的幸运数 题解</title>
+    <link href="https://leo2011.pages.dev/2024/02/25/b3929-gesp202312-wu-ji-xiao-yang-de-xing-yun-shu-ti-jie/"/>
+    <id>https://leo2011.pages.dev/2024/02/25/b3929-gesp202312-wu-ji-xiao-yang-de-xing-yun-shu-ti-jie/</id>
+    <published>2024-02-25T12:01:15.233Z</published>
+    <updated>2024-03-03T08:00:37.596Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
+&lt;p&gt;因为一些众所周知的原因，不放代码。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;分享一种考场思路：&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;math inline&quot;&gt;&#92;(a &#92;le 10^7&#92;)&lt;/span&gt;，
+顺序查找肯定会废，所以可以用一种类似埃氏筛的方法将所有满足条件的数标记一下，并将其加入一个答案数组
+&lt;span class=&quot;math inline&quot;&gt;&#92;(a&#92;)&lt;/span&gt;
+当中。然后每次查询只需要用&lt;code&gt;lower_bound&lt;/code&gt;函数二分查找一下，假如找到了第
+&lt;span class=&quot;math inline&quot;&gt;&#92;(i&#92;)&lt;/span&gt; 个：&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;math inline&quot;&gt;&#92;(a_i = x&#92;)&lt;/span&gt;, 直接输出；&lt;/p&gt;
+&lt;p&gt;否则，比较 &lt;span class=&quot;math inline&quot;&gt;&#92;(&#92;mid a_{i - 1} - x
+&#92;mid&#92;)&lt;/span&gt; 和 &lt;span class=&quot;math inline&quot;&gt;&#92;(&#92;mid a_i -</summary>
+        
+      
+    
+    
+    
+    <category term="题解" scheme="https://leo2011.pages.dev/categories/%E9%A2%98%E8%A7%A3/"/>
+    
+    
+    <category term="C艹" scheme="https://leo2011.pages.dev/tags/C%E8%89%B9/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexo-sliding-spoiler演示</title>
+    <link href="https://leo2011.pages.dev/2024/02/24/hexo-sliding-spoiler-yan-shi/"/>
+    <id>https://leo2011.pages.dev/2024/02/24/hexo-sliding-spoiler-yan-shi/</id>
+    <published>2024-02-24T10:17:49.237Z</published>
+    <updated>2024-03-03T08:00:34.185Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
+&lt;div class=&quot;spoiler collapsed&quot;&gt;
+    &lt;div class=&quot;spoiler-title&quot;&gt;
+        可以折叠词
+    &lt;/div&gt;
+    &lt;div class=&quot;spoiler-content&quot;&gt;
+        &lt;p&gt;content&lt;/p&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;spoiler collapsed&quot;&gt;
+    &lt;div class=&quot;spoiler-title&quot;&gt;
+        也支持Markdown语法
+    &lt;/div&gt;
+    &lt;div class=&quot;spoiler-content&quot;&gt;
+        &lt;p&gt;&lt;del&gt;删除线&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;加粗&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;斜体&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id=&quot;标题党也行&quot;&gt;标题党也行&lt;/h3&gt;
+&lt;p&gt;图片&lt;img src=&quot;/img/g.jpg&quot; alt=&quot;图片&quot;&gt; 和&lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="测试" scheme="https://leo2011.pages.dev/tags/%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hydro/Vijos美化脚本</title>
+    <link href="https://leo2011.pages.dev/2024/02/14/hydro-vijos-mei-hua-jiao-ben/"/>
+    <id>https://leo2011.pages.dev/2024/02/14/hydro-vijos-mei-hua-jiao-ben/</id>
+    <published>2024-02-14T08:00:08.000Z</published>
+    <updated>2024-03-03T09:55:21.607Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
+&lt;h1 id=&quot;安装方法&quot;&gt;安装方法：&lt;/h1&gt;
+&lt;h2 id=&quot;stylus&quot;&gt;Stylus&lt;/h2&gt;
+&lt;p&gt;先按照&lt;a href=&quot;https://www.luogu.com.cn/blog/YunQian/stylishstylus-wo-di-liu-lan-qi-wo-zuo-zhu&quot;&gt;此处&lt;/a&gt;的方法安装Stylus&lt;/p&gt;
+&lt;p&gt;打开&lt;a href=&quot;https://userstyles.world/style/14641/hydrovijos&quot;&gt;https://userstyles.world/style/14641/hydrovijos&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;点击蓝色的install就可以了。&lt;/p&gt;
+&lt;h2 id=&quot;油猴&quot;&gt;油猴&lt;/h2&gt;
+&lt;p&gt;Stylus装不了的可以用油猴。&lt;/p&gt;
+&lt;p&gt;油猴发布地址：&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="项目" scheme="https://leo2011.pages.dev/categories/%E9%A1%B9%E7%9B%AE/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>运算符的关系简览</title>
+    <link href="https://leo2011.pages.dev/2024/01/25/yun-suan-fu-de-guan-xi-jian-lan/"/>
+    <id>https://leo2011.pages.dev/2024/01/25/yun-suan-fu-de-guan-xi-jian-lan/</id>
+    <published>2024-01-25T14:20:44.000Z</published>
+    <updated>2024-03-03T08:02:03.006Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style=&quot;margin-top: 0px; margin-bottom: 0px; padding-top: 0px; padding-bottom: 0px; font-family: Arial; font-size: 14px; line-height: 26px; text-align: left;&quot;&gt;&lt;strong class=&quot;fr-fix-3f915ed7&quot;&gt;&lt;span class=&quot;fr-fix-3f915ed7&quot; style=&quot;font-size: 18px; color: #ff0000;&quot;&gt;C/C++运算符优先级&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p style=&quot;margin-top: 0px; margin-bottom: 0px; padding-top: 0px; padding-bottom: 0px; font-family: Arial; font-size: 14px; line-height: 26px; text-align:</summary>
+        
+      
+    
+    
+    
+    
+    <category term="C艹" scheme="https://leo2011.pages.dev/tags/C%E8%89%B9/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我艹，这么多良心软件都在GitHub上，你却打都打不开？</title>
+    <link href="https://leo2011.pages.dev/2024/01/25/wo-cao-zhe-me-duo-liang-xin-ruan-jian-du-zai-github-shang-ni-que-da-du-da-bu-kai/"/>
+    <id>https://leo2011.pages.dev/2024/01/25/wo-cao-zhe-me-duo-liang-xin-ruan-jian-du-zai-github-shang-ni-que-da-du-da-bu-kai/</id>
+    <published>2024-01-25T11:43:01.000Z</published>
+    <updated>2024-03-03T08:01:59.939Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
+&lt;h1 id=&quot;github为何物&quot;&gt;0 GitHub为何物？&lt;/h1&gt;
+&lt;p&gt;Git是一个代码管理工具。GitHub上自带Git，可以上传代码，上面囤积了不少高质量开源项目，比如&lt;a href=&quot;https://github.com/luogu-dev/cyaron&quot; title=&quot;你谷的CYaRon&quot;&gt;你谷的CYaRon&lt;/a&gt;。&lt;/p&gt;
+&lt;h1 id=&quot;有啥缺点不&quot;&gt;1 有啥缺点不？&lt;/h1&gt;
+&lt;p&gt;有啊，国内裸网打不开……&lt;del&gt;设计墙这东西的那个S13出来挨打！！！&lt;/del&gt;&lt;/p&gt;
+&lt;h1 id=&quot;咋办呢&quot;&gt;2 咋办呢？&lt;/h1&gt;
+&lt;h2 id=&quot;挂梯子&quot;&gt;2.0 挂梯子&lt;/h2&gt;
+&lt;p&gt;愁，是一堵矮矮的墙。我在这头，GitHub在那头（doge&lt;/p&gt;
+&lt;p&gt;那你架个梯子把墙翻过去不就得了？&lt;/p&gt;
+&lt;h3 id=&quot;优点&quot;&gt;2.0.0 优点&lt;/h3&gt;
+&lt;p&gt;简单粗暴，能够访问其它站点&lt;/p&gt;
+&lt;h3 id=&quot;缺点&quot;&gt;2.0.1 缺点&lt;/h3&gt;
+&lt;ol</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>ABC串讲——332（A~C）</title>
+    <link href="https://leo2011.pages.dev/2024/01/19/abc-chuan-jiang-332-a-c/"/>
+    <id>https://leo2011.pages.dev/2024/01/19/abc-chuan-jiang-332-a-c/</id>
+    <published>2024-01-19T13:35:32.000Z</published>
+    <updated>2024-03-03T08:00:19.808Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
+&lt;h1 id=&quot;a-online-shopping&quot;&gt;A Online Shopping&lt;/h1&gt;
+&lt;p&gt;模拟计算就得了。&lt;/p&gt;
+&lt;div class=&quot;spoiler collapsed&quot;&gt;
+    &lt;div class=&quot;spoiler-title&quot;&gt;
+        ACCode
+    &lt;/div&gt;
+    &lt;div class=&quot;spoiler-content&quot;&gt;
+        &lt;figure class=&quot;highlight cpp&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span</summary>
+        
+      
+    
+    
+    
+    <category term="题解" scheme="https://leo2011.pages.dev/categories/%E9%A2%98%E8%A7%A3/"/>
+    
+    <category term="AT-ABC串讲" scheme="https://leo2011.pages.dev/categories/%E9%A2%98%E8%A7%A3/AT-ABC%E4%B8%B2%E8%AE%B2/"/>
+    
+    
+    <category term="C艹" scheme="https://leo2011.pages.dev/tags/C%E8%89%B9/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ABC串讲——328（A~C）</title>
+    <link href="https://leo2011.pages.dev/2024/01/19/abc-chuan-jiang-328-a-c/"/>
+    <id>https://leo2011.pages.dev/2024/01/19/abc-chuan-jiang-328-a-c/</id>
+    <published>2024-01-19T13:18:32.000Z</published>
+    <updated>2024-03-03T09:47:48.091Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
+&lt;h1 id=&quot;a-not-too-hard&quot;&gt;A Not Too Hard&lt;/h1&gt;
+&lt;p&gt;&lt;span class=&quot;math inline&quot;&gt;&#92;(N &#92;le 8&#92;)&lt;/span&gt;
+也是醉了，循环枚举就得了呗？ 遍历一遍数组就可以 AC 了。&lt;/p&gt;
+&lt;div class=&quot;spoiler collapsed&quot;&gt;
+    &lt;div class=&quot;spoiler-title&quot;&gt;
+        ACCode
+    &lt;/div&gt;
+    &lt;div class=&quot;spoiler-content&quot;&gt;
+        &lt;figure class=&quot;highlight cpp&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span</summary>
+        
+      
+    
+    
+    
+    <category term="题解" scheme="https://leo2011.pages.dev/categories/%E9%A2%98%E8%A7%A3/"/>
+    
+    <category term="AT-ABC串讲" scheme="https://leo2011.pages.dev/categories/%E9%A2%98%E8%A7%A3/AT-ABC%E4%B8%B2%E8%AE%B2/"/>
+    
+    
+    <category term="C艹" scheme="https://leo2011.pages.dev/tags/C%E8%89%B9/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ABC串讲——327（A~C）</title>
+    <link href="https://leo2011.pages.dev/2024/01/18/abc-chuan-jiang-327-a-c/"/>
+    <id>https://leo2011.pages.dev/2024/01/18/abc-chuan-jiang-327-a-c/</id>
+    <published>2024-01-18T14:21:32.000Z</published>
+    <updated>2024-03-03T08:00:13.078Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
+&lt;h1 id=&quot;a-ab&quot;&gt;A ab&lt;/h1&gt;
+&lt;p&gt;&lt;span class=&quot;math inline&quot;&gt;&#92;(S&#92;)&lt;/span&gt; 长度不超过 100，随便搞~&lt;/p&gt;
+&lt;p&gt;遍历一遍，如果一个是“a”且下一个字符是“b”就有，否则没有。&lt;/p&gt;
+&lt;div class=&quot;spoiler collapsed&quot;&gt;
+    &lt;div class=&quot;spoiler-title&quot;&gt;
+        ACCode
+    &lt;/div&gt;
+    &lt;div class=&quot;spoiler-content&quot;&gt;
+        &lt;figure class=&quot;highlight cpp&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span</summary>
+        
+      
+    
+    
+    
+    <category term="题解" scheme="https://leo2011.pages.dev/categories/%E9%A2%98%E8%A7%A3/"/>
+    
+    <category term="AT-ABC串讲" scheme="https://leo2011.pages.dev/categories/%E9%A2%98%E8%A7%A3/AT-ABC%E4%B8%B2%E8%AE%B2/"/>
+    
+    
+    <category term="C艹" scheme="https://leo2011.pages.dev/tags/C%E8%89%B9/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>P2580 于是他错误的点名开始了 题解</title>
+    <link href="https://leo2011.pages.dev/2024/01/18/p2580-yu-shi-ta-cuo-wu-de-dian-ming-kai-shi-liao-ti-jie/"/>
+    <id>https://leo2011.pages.dev/2024/01/18/p2580-yu-shi-ta-cuo-wu-de-dian-ming-kai-shi-liao-ti-jie/</id>
+    <published>2024-01-18T14:01:26.000Z</published>
+    <updated>2024-03-03T08:00:48.402Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
+&lt;p&gt;“普及/&lt;strong&gt;提高-&lt;/strong&gt;”这个难度很有意思。&lt;/p&gt;
+&lt;p&gt;说明这题可能需要用到提高组当中比较基础的内容。&lt;/p&gt;
+&lt;p&gt;它的名字叫做 map。&lt;/p&gt;
+&lt;hr&gt;
+&lt;figure class=&quot;highlight cpp&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;map&amp;lt;&lt;span class=&quot;type&quot;&gt;int&lt;/span&gt;, &lt;span class=&quot;type&quot;&gt;int&lt;/span&gt;&amp;gt; a;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;a[&lt;span class=&quot;number&quot;&gt;7&lt;/span&gt;] =</summary>
+        
+      
+    
+    
+    
+    <category term="题解" scheme="https://leo2011.pages.dev/categories/%E9%A2%98%E8%A7%A3/"/>
+    
+    
+    <category term="C艹" scheme="https://leo2011.pages.dev/tags/C%E8%89%B9/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>P9012 [USACO23JAN] Moo Operations B题解</title>
+    <link href="https://leo2011.pages.dev/2024/01/18/p9012-usaco23jan-moo-operations-b-ti-jie/"/>
+    <id>https://leo2011.pages.dev/2024/01/18/p9012-usaco23jan-moo-operations-b-ti-jie/</id>
+    <published>2024-01-18T13:33:13.000Z</published>
+    <updated>2024-03-03T08:00:53.767Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
+&lt;p&gt;前情提要：这&lt;del&gt;恐怕&lt;/del&gt;是最好想、最简单的一种做法。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;del&gt;第 1 道赛场 AC 的题，必须发篇题解记录一下。&lt;/del&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Tips: &lt;span class=&quot;math inline&quot;&gt;&#92;(1 &#92;le |S| &#92;le 100&#92;)&lt;/span&gt;
+——题目&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;才 &lt;span class=&quot;math inline&quot;&gt;&#92;(100&#92;)&lt;/span&gt;，这就可以随便整活了。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;如果你稍微懂点英语，就会知道第 &lt;span class=&quot;math inline&quot;&gt;&#92;(2 &#92;sim
+4&#92;)&lt;/span&gt; 个点的 &lt;span class=&quot;math inline&quot;&gt;&#92;(S&#92;)&lt;/span&gt; 都最多只有
+&lt;span class=&quot;math inline&quot;&gt;&#92;(3&#92;)&lt;/span&gt; 个字符，而目标“MOO”也是 &lt;span class=&quot;math inline&quot;&gt;&#92;(3&#92;)&lt;/span&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="题解" scheme="https://leo2011.pages.dev/categories/%E9%A2%98%E8%A7%A3/"/>
+    
+    <category term="USACO" scheme="https://leo2011.pages.dev/categories/%E9%A2%98%E8%A7%A3/USACO/"/>
+    
+    
+    <category term="C艹" scheme="https://leo2011.pages.dev/tags/C%E8%89%B9/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PythonGUI图形化界面详解</title>
+    <link href="https://leo2011.pages.dev/2024/01/01/pythongui-tu-xing-hua-jie-mian-xiang-jie/"/>
+    <id>https://leo2011.pages.dev/2024/01/01/pythongui-tu-xing-hua-jie-mian-xiang-jie/</id>
+    <published>2024-01-01T07:56:32.000Z</published>
+    <updated>2024-03-03T09:55:50.819Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
+&lt;h1 id=&quot;简介&quot;&gt;简介&lt;/h1&gt;
+&lt;p&gt;话说你看到的软件是不是都是用图形化界面（Graphical User Interface,
+GUI）整出来的？&lt;/p&gt;
+&lt;p&gt;比如这个：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/2023-12-29_19-37-52.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;然鹅，再看看咱的“图形化界面”：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/2023-12-29_19-40-06.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;upd：这里的命令行界面连图形化界面都不是，应该叫文本用户界面（Text
+User Interface, TUI），不可以混淆！&lt;/p&gt;
+&lt;p&gt;根本不是一个等级的啊！于是，我们来用Python整一个真正的GUI吧！&lt;/p&gt;
+&lt;h1 id=&quot;安装环境&quot;&gt;安装环境&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Tips：如果您已安装Python和一个另外的IDE，可以忽略此步骤。但如果后续发现有模块运行不了且代码、模块等正常，可以按照此步骤重新安装。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;见&lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Python" scheme="https://leo2011.pages.dev/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Python环境安装与配置</title>
+    <link href="https://leo2011.pages.dev/2024/01/01/python-huan-jing-an-zhuang-yu-pei-zhi/"/>
+    <id>https://leo2011.pages.dev/2024/01/01/python-huan-jing-an-zhuang-yu-pei-zhi/</id>
+    <published>2024-01-01T07:55:02.000Z</published>
+    <updated>2024-03-03T09:56:15.338Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
+&lt;h1 id=&quot;安装python&quot;&gt;安装Python&lt;/h1&gt;
+&lt;h2 id=&quot;下载安装python&quot;&gt;下载安装Python&lt;/h2&gt;
+&lt;p&gt;要用Python，那肯定得先装个Python呐！&lt;/p&gt;
+&lt;p&gt;先把&lt;a href=&quot;https://www.python.org/&quot;&gt;Python官网&lt;/a&gt;扒出来。访问速度一般不咋滴，请耐心等待~&lt;/p&gt;
+&lt;p&gt;如果正常，应该能出来个这个：&lt;img src=&quot;img/2023-12-29_20-39-34.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;TMD我等了半天出来个我不认识的全英版本？&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;是的，就是这样的。&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;没事，我帮你翻译。选Downloads，鼠标在上面停留一会，会出现一个列表。直接选你用的系统（Win就选Windows，macOS就是macOS，Linux的……&lt;del&gt;自己找教程去吧，官方大概率没有&lt;/del&gt;可以去Other
+Platforms瞅一瞅，没有就去问度娘吧），然后如下操作（macOS的会有一个&lt;code&gt;universal2</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Python" scheme="https://leo2011.pages.dev/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于三目运算符，你需要知道的所有</title>
+    <link href="https://leo2011.pages.dev/2024/01/01/guan-yu-san-mu-yun-suan-fu-ni-xu-yao-zhi-dao-de-suo-you/"/>
+    <id>https://leo2011.pages.dev/2024/01/01/guan-yu-san-mu-yun-suan-fu-ni-xu-yao-zhi-dao-de-suo-you/</id>
+    <published>2024-01-01T07:52:41.000Z</published>
+    <updated>2024-03-03T08:01:15.334Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
+&lt;p&gt;if...else语句常写吧？&lt;/p&gt;
+&lt;p&gt;But，你会不会觉得：&lt;/p&gt;
+&lt;p&gt;写if...else？ 烦死了！&lt;/p&gt;
+&lt;p&gt;写switch？就俩我写啥……&lt;/p&gt;
+&lt;p&gt;于是，又一个C艹利器——三目运算符诞生啦！&lt;/p&gt;
+&lt;p&gt;先上代码：&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;mn = (a &amp;lt; b) ? a : b; /* 其中，? :为三目运算符，一般为“结果保存值 = 条件 ? 结果A : 结果B*/&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;意思即：如果a &amp;lt; b，那么mn = a，否则mn = b&lt;/p&gt;
+&lt;p&gt;那不就是if...else吗！&lt;/p&gt;
+&lt;p&gt;不，如果你用if...else，那么代码会变成这样：&lt;/p&gt;
+&lt;figure class=&quot;highlight cpp&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span</summary>
+        
+      
+    
+    
+    
+    <category term="“你需要知道的所有”系列" scheme="https://leo2011.pages.dev/categories/%E2%80%9C%E4%BD%A0%E9%9C%80%E8%A6%81%E7%9F%A5%E9%81%93%E7%9A%84%E6%89%80%E6%9C%89%E2%80%9D%E7%B3%BB%E5%88%97/"/>
+    
+    
+    <category term="C艹" scheme="https://leo2011.pages.dev/tags/C%E8%89%B9/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于__int128和short，你需要知道的所有</title>
+    <link href="https://leo2011.pages.dev/2024/01/01/guan-yu-int128-he-short-ni-xu-yao-zhi-dao-de-suo-you/"/>
+    <id>https://leo2011.pages.dev/2024/01/01/guan-yu-int128-he-short-ni-xu-yao-zhi-dao-de-suo-you/</id>
+    <published>2024-01-01T07:48:18.000Z</published>
+    <updated>2024-03-03T08:01:03.341Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
+&lt;p&gt;高精度大家都认识吧？&lt;/p&gt;
+&lt;p&gt;但是，高精度这货是真滴长……&lt;/p&gt;
+&lt;p&gt;于是，人们又发明出了一个东西 __int128！&lt;/p&gt;
+&lt;p&gt;__int128（注意前面有2个下划线）嘛，把特点写脸上了：占用128位，也就是16个字节。储存范围，自然也是占用64位的long
+long的2倍。换算一下，能存三十多近四十位。基本上可以代替部分高精度了。&lt;/p&gt;
+&lt;p&gt;那__int128这么NB，咋就不能被广泛使用呢（好多教材没教这个对不）？&lt;/p&gt;
+&lt;p&gt;因为它缺陷也很多：&lt;/p&gt;
+&lt;ol type=&quot;1&quot;&gt;
+&lt;li&gt;不通用。__int128并没有在任何一个C艹标准中严格定义
+，所以目前它只是GCC系列编译器的专属（NOI
+Linux恰好也用的是GCC，所以__int128可用。然鹅，使用Visual
+Studio的同志们，你们用的编译器一般是MSVC，是不支持的）。目前测试，只在Linux系统下能够正常使用（好在大部分地区比赛、评测均已切换至NOI
+Linux</summary>
+        
+      
+    
+    
+    
+    <category term="“你需要知道的所有”系列" scheme="https://leo2011.pages.dev/categories/%E2%80%9C%E4%BD%A0%E9%9C%80%E8%A6%81%E7%9F%A5%E9%81%93%E7%9A%84%E6%89%80%E6%9C%89%E2%80%9D%E7%B3%BB%E5%88%97/"/>
+    
+    
+    <category term="C艹" scheme="https://leo2011.pages.dev/tags/C%E8%89%B9/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于auto，你须要知道的所有</title>
+    <link href="https://leo2011.pages.dev/2024/01/01/guan-yu-auto-ni-xu-yao-zhi-dao-de-suo-you/"/>
+    <id>https://leo2011.pages.dev/2024/01/01/guan-yu-auto-ni-xu-yao-zhi-dao-de-suo-you/</id>
+    <published>2024-01-01T07:38:34.000Z</published>
+    <updated>2024-03-03T08:01:06.416Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
+&lt;p&gt;话说咱写 STL 的时候经常会要写迭代器，大概是这么一大串东西：&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;vector&amp;lt;int&amp;gt;::iterator iter = data.begin();&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;好烦啊！而且，iterator 这个单词容易写错（CE：走好不送）……&lt;/p&gt;
+&lt;p&gt;于是，在 C 艹 11标准中，C 艹开发者发明了一个超级好用的东西：auto!&lt;/p&gt;
+&lt;p&gt;auto 这货类似于 Python 定义变量，会自动确定它的类型！&lt;/p&gt;
+&lt;p&gt;如：&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;auto a = 3; // a为int类型&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;auto b = a + 0.1;  // b为double类型&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;好爽哦有木有！&lt;/p&gt;
+&lt;p&gt;于是，开头的那段代码就可以写成这德行：&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;auto iter = data.begin();&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;你以为这就结束了？不，还有！&lt;/p&gt;
+&lt;p&gt;咱还能这么玩：&lt;/p&gt;
+&lt;figure</summary>
+        
+      
+    
+    
+    
+    <category term="“你需要知道的所有”系列" scheme="https://leo2011.pages.dev/categories/%E2%80%9C%E4%BD%A0%E9%9C%80%E8%A6%81%E7%9F%A5%E9%81%93%E7%9A%84%E6%89%80%E6%9C%89%E2%80%9D%E7%B3%BB%E5%88%97/"/>
+    
+    
+    <category term="C艹" scheme="https://leo2011.pages.dev/tags/C%E8%89%B9/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于switch，你须要知道的所有</title>
+    <link href="https://leo2011.pages.dev/2024/01/01/guan-yu-switch-ni-xu-yao-zhi-dao-de-suo-you/"/>
+    <id>https://leo2011.pages.dev/2024/01/01/guan-yu-switch-ni-xu-yao-zhi-dao-de-suo-you/</id>
+    <published>2024-01-01T07:38:13.000Z</published>
+    <updated>2024-03-03T08:01:12.056Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
+&lt;p&gt;话说写代码时要写 1 吨 if 的题你们有木有遇到？&lt;/p&gt;
+&lt;p&gt;比如&lt;a href=&quot;https://wonderland.run/p/T1347&quot;&gt;这道题&lt;/a&gt;。6 个操作要写
+6 个 if！那么你的代码可能会成这德行：&lt;/p&gt;
+&lt;figure class=&quot;highlight cpp&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span</summary>
+        
+      
+    
+    
+    
+    <category term="“你需要知道的所有”系列" scheme="https://leo2011.pages.dev/categories/%E2%80%9C%E4%BD%A0%E9%9C%80%E8%A6%81%E7%9F%A5%E9%81%93%E7%9A%84%E6%89%80%E6%9C%89%E2%80%9D%E7%B3%BB%E5%88%97/"/>
+    
+    
+    <category term="C艹" scheme="https://leo2011.pages.dev/tags/C%E8%89%B9/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于类，你须要知道的所有</title>
+    <link href="https://leo2011.pages.dev/2024/01/01/guan-yu-lei-ni-xu-yao-zhi-dao-de-suo-you/"/>
+    <id>https://leo2011.pages.dev/2024/01/01/guan-yu-lei-ni-xu-yao-zhi-dao-de-suo-you/</id>
+    <published>2024-01-01T07:29:56.000Z</published>
+    <updated>2024-03-03T08:01:22.946Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
+&lt;p&gt;众所周知，Python是一种面向对象的语言，而C不是。&lt;/p&gt;
+&lt;p&gt;为啥呢？&lt;/p&gt;
+&lt;p&gt;因为Python引入了Class!&lt;/p&gt;
+&lt;p&gt;那都说C++也是面向对象的语言，C++有Class吗？&lt;/p&gt;
+&lt;p&gt;有！跟结构体差不多！&lt;/p&gt;
+&lt;p&gt;例如，下面这段代码：&lt;/p&gt;
+&lt;figure class=&quot;highlight cpp&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;struct&lt;/span&gt; &lt;span class=&quot;title class_&quot;&gt;OIer&lt;/span&gt;{&lt;/span&gt;&lt;br&gt;&lt;span</summary>
+        
+      
+    
+    
+    
+    <category term="“你需要知道的所有”系列" scheme="https://leo2011.pages.dev/categories/%E2%80%9C%E4%BD%A0%E9%9C%80%E8%A6%81%E7%9F%A5%E9%81%93%E7%9A%84%E6%89%80%E6%9C%89%E2%80%9D%E7%B3%BB%E5%88%97/"/>
+    
+    
+    <category term="C艹" scheme="https://leo2011.pages.dev/tags/C%E8%89%B9/"/>
+    
+  </entry>
+  
+</feed>

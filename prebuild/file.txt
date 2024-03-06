@@ -1,0 +1,2 @@
+prebuild/spoiler.css node_modules/hexo-sliding-spoiler/assets/spoiler.css
+prebuild/_config.yml node_modules/hexo-theme-next/_config.yml
