@@ -30,6 +30,7 @@ code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
 - admin/**
+- 404.md
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -45,8 +46,8 @@ post_asset_folder: false
 relative_link: false
 future: true
 
+syntax_highlighter: highlight.js
 highlight:
-  enable: true
   auto_detect: true
   line_number: true
   line_threshold: 0
@@ -55,7 +56,6 @@ highlight:
   wrap: true
   hljs: true
 prismjs:
-  enable: false
   preprocess: true
   line_number: true
   line_threshold: 0
@@ -178,7 +178,7 @@ title_change:
   enable: true
 
   # Enabling this feature on non-desktop devices may not be a good choice, but it depends on you.
-  onmobile: false
+  onmobile: true
 
   # Enable random title or not.
   # Basically `random: true` means you have several titles to display and `random: false` means you have only one title to display.
@@ -206,20 +206,15 @@ title_change:
       - 你可算回来啦(✿◡‿◡)！
       #- Welcome back!
 
-
 excerpt:
   depth: 10
   excerpt_excludes: []
   more_excludes: []
-  hideWholePostExcerpts: true
-
-auto_excerpt:
-  enable: true
-  length: 150
+  hideWholePostExcerpts: false
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/worker2011/worker2011.github.io
+  repo: https://github.com/worker2011/worker2011.github.io/
   branch: main

@@ -5,7 +5,6 @@ tags:
 categories: "项目"
 top: 10
 ---
-<!-- more -->
 # 安装方法：
 ## Stylus
 先按照[此处](https://www.luogu.com.cn/blog/YunQian/stylishstylus-wo-di-liu-lan-qi-wo-zuo-zhu)的方法安装Stylus
@@ -13,6 +12,8 @@ top: 10
 打开[https://userstyles.world/style/14641/hydrovijos](https://userstyles.world/style/14641/hydrovijos)
 
 点击蓝色的install就可以了。
+
+<!-- more -->
 
 ## 油猴
 Stylus装不了的可以用油猴。

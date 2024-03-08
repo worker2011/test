@@ -4,10 +4,11 @@ date: 2024-01-01 15:56:32
 tags: "Python"
 
 ---
-<!-- more -->
 # 简介
 
 话说你看到的软件是不是都是用图形化界面（Graphical User Interface, GUI）整出来的？
+
+<!-- more -->
 
 比如这个：
 

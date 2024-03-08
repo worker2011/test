@@ -7,8 +7,8 @@ categories:
 - "AT-ABC串讲"
 
 ---
-<!--more-->
 # A Not Too Hard
+<!--more-->
 $N \le 8$ 也是醉了，循环枚举就得了呗？
 遍历一遍数组就可以 AC 了。
 

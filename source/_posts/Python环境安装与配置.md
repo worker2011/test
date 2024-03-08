@@ -3,11 +3,10 @@ title: Python环境安装与配置
 date: 2024-01-01 15:55:02
 tags: "Python"
 ---
-<!-- more -->
 # 安装Python
 ## 下载安装Python
 要用Python，那肯定得先装个Python呐！
-
+<!-- more -->
 先把[Python官网](https://www.python.org/)扒出来。访问速度一般不咋滴，请耐心等待~
 
 如果正常，应该能出来个这个：![](img/2023-12-29_20-39-34.png)

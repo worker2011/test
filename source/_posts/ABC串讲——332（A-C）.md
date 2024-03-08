@@ -7,9 +7,8 @@ categories:
 - AT-ABC串讲
 
 ---
-<!-- more -->
 # A Online Shopping
-
+<!-- more -->
 模拟计算就得了。
 
 {% spoiler ACCode %}

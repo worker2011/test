@@ -3,11 +3,10 @@ title: 我艹，这么多良心软件都在GitHub上，你却打都打不开？
 date: 2024-01-25 19:43:01
 tags:
 ---
-<!-- more -->
 # 0 GitHub为何物？
 
 Git是一个代码管理工具。GitHub上自带Git，可以上传代码，上面囤积了不少高质量开源项目，比如[你谷的CYaRon](https://github.com/luogu-dev/cyaron "你谷的CYaRon")。
-
+<!-- more -->
 # 1 有啥缺点不？
 
 有啊，国内裸网打不开……~~设计墙这东西的那个S13出来挨打！！！~~
