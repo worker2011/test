@@ -8,7 +8,8 @@ subtitle: '许许多多的平凡加在一起，就成了不平凡。'
 description: '六年级的蒟蒻QwQ'
 keywords: C, C++, CSS, Python
 author: Leo2011
-language: zh-CN
+language: 
+- zh-CN
 timezone: 'Asia/Shanghai'
 
 # URL

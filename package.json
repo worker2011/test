@@ -41,6 +41,6 @@
     "hexo-theme-landscape": "^1.0.0",
     "hexo-theme-next": "latest",
     "hexo-wordcount": "^6.0.1",
-    "highlight.js": "latest"
+    "next-util": "theme-next/next-util"
   }
 }

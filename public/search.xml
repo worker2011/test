@@ -58,82 +58,6 @@
     
     
     <entry>
-      <title>2023游寄</title>
-      <link href="/2024/02/25/2023-you-ji/"/>
-      <url>/2024/02/25/2023-you-ji/</url>
-      
-        <content type="html"><![CDATA[<p>按首次参加时间排序。 <span id="more"></span> ---</p><h1 id="蓝桥stema">蓝桥STEMA</h1><p>考点：家里（</p><p>打得最好的比赛之一。</p><h2 id="年初场">年初场</h2><p>选择题好简单，编程题就会前几道，没想到最后500+分进了GD省赛……</p><p>可惜省赛跟英语撞了，没打……</p><h3 id="年末场">年末场</h3><p>跟年初场差不多，编程题多了一道也多做了一道，最后居然进了前5%……</p><p>省赛还没开始……</p><h1 id="itc">ITC</h1><p>考点：家里</p><p>题目大多比较简单，不会一道编程题，城市赛1=后面的赛场就没再打了……</p><h1 id="ccf">CCF</h1><h2 id="csp">CSP</h2><h3 id="day-0">Day 0</h3><p>CSP-J/S 2023要开始了，蒟蒻Leo2011非常紧张！</p><p>不过准备的还行，但愿有个好成绩……</p><h3 id="day-1">Day 1</h3><p>考点：深实验初中部</p><p>距家里车程约1h，跟平常到市区差不多。本部校区比我们学校和光明分校大多了，<del>路痴别考了</del>，但愿以后能去……</p><h4 id="上午场pj">上午场（pj）</h4><p>题目有些难度，但还好。</p><p>选择第11题考了一会儿改选项了……</p><p>判断题全选的✓……</p><p>没想到这样还能74.5全国前10%“保送”进入复赛……（GD分数线等的我好苦……）</p><h4 id="下午场tg">下午场（tg）</h4><p>第一眼看到第一题：这不弱智题吗？</p><p>第二眼看到第二题：我是弱智（……</p><p>pj选手，tg摆烂，飞速答完题后（都不用想的，<del>反正都不会</del>）。</p><p>45.5，深圳分数线46.5，我KAO……</p><h3 id="day-2">Day 2</h3><p>考点：耀华实验学校</p><p>就考了pj……</p><p>T3一元二次方程给我一六年级小学生干炸了……骗个第一个点10分跑路（其实我可以骗50的，但没想到）</p><p>T4输出<code>-1</code>，本想着三四个点最后就一个点……</p><p>然后T1T2反复横跳（重点写T1）</p><p>T2想假了，本以为性质AB都能骗最后“面向数据范围编程”结果它的数据比我预想的小很多，30--&gt;15--&gt;0……</p><p>T1玩儿命想AC，结果贪心不足反因为开了个1e9的longlong数组CE爆0（老师赛后告诉我把9改成7就可以90甚至AC了……）</p><p>2=+4级绿钩--&gt;啥也没有，寄</p><h2 id="gesp">GESP</h2><p>考点：深圳职业技术大学</p><p>搬家前在坪山区，那里有个叫“深圳技术大学”的考点，搬家后就得大老远跑到福田去了……（真的有人会把它们弄混吗）</p><h3 id="月4级">6月4级</h3><p>选择判断很简单，编程AC了一道题，最后居然59全国第536……<del>€€£你给我出来挨打！！！</del></p><h3 id="月4级-1">9月4级</h3><p>跟6月一样，这次69了……</p><h3 id="月5级">12月5级</h3><p>没法跳级，但至少能考。</p><p>这次是团报。</p><p>选择判断还是那么弱。</p><p>编程题T1从4级的AC25--&gt;15，T2居然从4级的0--&gt;20（考场数据<del>很弱</del>对选手很友好，以后继续这样）。</p><p>团报能提前查分，73。</p><h1 id="abc">ABC</h1><p>考点：家里</p><p>最开始327、328两场AC了C题就以为自己能稳定做出C，实际是做出C是偶然情况，祭。</p><link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
-      
-      
-      <categories>
-          
-          <category> 年度游寄 </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>几种最短路算法对比</title>
-      <link href="/2024/02/25/ji-chong-zui-duan-lu-suan-fa-dui-bi/"/>
-      <url>/2024/02/25/ji-chong-zui-duan-lu-suan-fa-dui-bi/</url>
-      
-        <content type="html"><![CDATA[<blockquote><p>众所周知，关于SPFA，它死了。 <span id="more"></span> 几种最短路算法对比：</p></blockquote><table><colgroup><col style="width: 20%"><col style="width: 20%"><col style="width: 20%"><col style="width: 20%"><col style="width: 20%"></colgroup><thead><tr class="header"><th style="text-align: center;">名称</th><th style="text-align: center;">时间复杂度</th><th style="text-align: center;">优点</th><th style="text-align: center;">缺点</th><th style="text-align: center;">使用情况</th></tr></thead><tbody><tr class="odd"><td style="text-align: center;">Floyd-Warshall</td><td style="text-align: center;"><span class="math inline">\(O(n ^3)\)</span></td><td style="text-align: center;">仅有的多源最短路径算法（即跑一遍Floyd能求出每个点到其它点的距离）、其核心代码就5 行</td><td style="text-align: center;">时间复杂度过高</td><td style="text-align: center;">多源最短路、对时间复杂度没要求</td></tr><tr class="even"><td style="text-align: center;">Dijkstra</td><td style="text-align: center;"><span class="math inline">\(O(n ^2)\)</span></td><td style="text-align: center;">时间复杂度比较低，具有良好的可扩展性</td><td style="text-align: center;">编码复杂度非常高、不能处理负权，即边的权值是负数的情况（跟它用的是贪心有关）</td><td style="text-align: center;">稠密图且是单源最短路、对时间复杂度有要求</td></tr><tr class="odd"><td style="text-align: center;">Bellman-Ford</td><td style="text-align: center;"><span class="math inline">\(O(nm)\)</span></td><td style="text-align: center;"><del>我个人</del>比较喜欢的算法，能处理负权，时间复杂度还行，而且核心代码只有4 行</td><td style="text-align: center;">跟Dijkstra时间复杂度互有胜负，有时还是Dijkstra赢了</td><td style="text-align: center;">稀疏图</td></tr><tr class="even"><td style="text-align: center;">SPFA</td><td style="text-align: center;">最坏也是 <span class="math inline">\(O(nm)\)</span></td><td style="text-align: center;">优化版Bellman-Ford</td><td style="text-align: center;">众所周知，它死了</td><td style="text-align: center;">别用</td></tr><tr class="odd"><td style="text-align: center;">BFS</td><td style="text-align: center;"><span class="math inline">\(O(n +m)\)</span></td><td style="text-align: center;">思路简单</td><td style="text-align: center;">只能处理等权图或无权图</td><td style="text-align: center;">等权图/无权图</td></tr></tbody></table><p>注：<span class="math inline">\(n\)</span> 为点的个数，<span class="math inline">\(m\)</span> 为边的个数。</p><link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>B3929 [GESP202312 五级] 小杨的幸运数 题解</title>
-      <link href="/2024/02/25/b3929-gesp202312-wu-ji-xiao-yang-de-xing-yun-shu-ti-jie/"/>
-      <url>/2024/02/25/b3929-gesp202312-wu-ji-xiao-yang-de-xing-yun-shu-ti-jie/</url>
-      
-        <content type="html"><![CDATA[<p>因为一些众所周知的原因，不放代码。 <span id="more"></span> ---</p><p>分享一种考场思路：</p><p><span class="math inline">\(a \le 10^7\)</span>，顺序查找肯定会废，所以可以用一种类似埃氏筛的方法将所有满足条件的数标记一下，并将其加入一个答案数组<span class="math inline">\(a\)</span>当中。然后每次查询只需要用<code>lower_bound</code>函数二分查找一下，假如找到了第<span class="math inline">\(i\)</span> 个：</p><p><span class="math inline">\(a_i = x\)</span>, 直接输出；</p><p>否则，比较 <span class="math inline">\(\mid a_{i - 1} - x\mid\)</span> 和 <span class="math inline">\(\mid a_i - x\mid\)</span>，看看那个差值小输出。</p><p>最后算一下时间复杂度：预处理部分比埃氏筛快，查找部分二分时间复杂度最坏<span class="math inline">\(O(N \log m)\)</span>，其中 <span class="math inline">\(m\)</span>就是查找出来的满足条件数数组大小，经计算，<span class="math inline">\(m\)</span> 最坏是 <span class="math inline">\(500\)</span> 左右，乘 <span class="math inline">\(N\)</span> 显然是因为有 <span class="math inline">\(N\)</span> 次查询，最后是 <span class="math inline">\(O(a \log \log a + N \log m)\)</span> 不到，不会TLE。</p><link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
-      
-      
-      <categories>
-          
-          <category> 题解 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> C艹 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>hexo-sliding-spoiler演示</title>
-      <link href="/2024/02/24/hexo-sliding-spoiler-yan-shi/"/>
-      <url>/2024/02/24/hexo-sliding-spoiler-yan-shi/</url>
-      
-        <content type="html"><![CDATA[<div class="spoiler collapsed">    <div class="spoiler-title">        可以折叠词    </div>    <div class="spoiler-content">        <p>content</p>    </div></div><div class="spoiler collapsed">    <div class="spoiler-title">        也支持Markdown语法    </div>    <div class="spoiler-content">        <p><del>删除线</del></p><p><strong>加粗</strong></p><p><em>斜体</em></p><h3 id="标题党也行">标题党也行</h3><p>图片<img src="/img/g.jpg" alt="图片"> 和<a href="https://github.com/fletchto99/hexo-sliding-spoiler">链接</a>也都支持1. 有序序列 - 无序序列</p><p>当然，最主要的还是代码块，这个也是支持高亮的（如果你有用）</p><figure class="highlight python"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">"Hello World!"</span>)</span><br></pre></td></tr></tbody></table></figure><p></p>    </div></div><div class="spoiler collapsed">    <div class="spoiler-title">        MathJax也支持（如果你博客支持它就支持！）    </div>    <div class="spoiler-content">        <p><span class="math inline">\(2 ^ {10} = 1024\)</span></p>    </div></div><link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> 测试 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Hydro/Vijos美化脚本</title>
       <link href="/2024/02/14/hydro-vijos-mei-hua-jiao-ben/"/>
       <url>/2024/02/14/hydro-vijos-mei-hua-jiao-ben/</url>
@@ -172,13 +96,89 @@
     
     
     <entry>
+      <title>2023游寄</title>
+      <link href="/2024/01/25/2023-you-ji/"/>
+      <url>/2024/01/25/2023-you-ji/</url>
+      
+        <content type="html"><![CDATA[<p>按首次参加时间排序。 <span id="more"></span> ---</p><h1 id="蓝桥stema">蓝桥STEMA</h1><p>考点：家里（</p><p>打得最好的比赛之一。</p><h2 id="年初场">年初场</h2><p>选择题好简单，编程题就会前几道，没想到最后500+分进了GD省赛……</p><p>可惜省赛跟英语撞了，没打……</p><h3 id="年末场">年末场</h3><p>跟年初场差不多，编程题多了一道也多做了一道，最后居然进了前5%……</p><p>省赛还没开始……</p><h1 id="itc">ITC</h1><p>考点：家里</p><p>题目大多比较简单，不会一道编程题，城市赛1=后面的赛场就没再打了……</p><h1 id="ccf">CCF</h1><h2 id="csp">CSP</h2><h3 id="day-0">Day 0</h3><p>CSP-J/S 2023要开始了，蒟蒻Leo2011非常紧张！</p><p>不过准备的还行，但愿有个好成绩……</p><h3 id="day-1">Day 1</h3><p>考点：深实验初中部</p><p>距家里车程约1h，跟平常到市区差不多。本部校区比我们学校和光明分校大多了，<del>路痴别考了</del>，但愿以后能去……</p><h4 id="上午场pj">上午场（pj）</h4><p>题目有些难度，但还好。</p><p>选择第11题考了一会儿改选项了……</p><p>判断题全选的✓……</p><p>没想到这样还能74.5全国前10%“保送”进入复赛……（GD分数线等的我好苦……）</p><h4 id="下午场tg">下午场（tg）</h4><p>第一眼看到第一题：这不弱智题吗？</p><p>第二眼看到第二题：我是弱智（……</p><p>pj选手，tg摆烂，飞速答完题后（都不用想的，<del>反正都不会</del>）。</p><p>45.5，深圳分数线46.5，我KAO……</p><h3 id="day-2">Day 2</h3><p>考点：耀华实验学校</p><p>就考了pj……</p><p>T3一元二次方程给我一六年级小学生干炸了……骗个第一个点10分跑路（其实我可以骗50的，但没想到）</p><p>T4输出<code>-1</code>，本想着三四个点最后就一个点……</p><p>然后T1T2反复横跳（重点写T1）</p><p>T2想假了，本以为性质AB都能骗最后“面向数据范围编程”结果它的数据比我预想的小很多，30--&gt;15--&gt;0……</p><p>T1玩儿命想AC，结果贪心不足反因为开了个1e9的longlong数组CE爆0（老师赛后告诉我把9改成7就可以90甚至AC了……）</p><p>2=+4级绿钩--&gt;啥也没有，寄</p><h2 id="gesp">GESP</h2><p>考点：深圳职业技术大学</p><p>搬家前在坪山区，那里有个叫“深圳技术大学”的考点，搬家后就得大老远跑到福田去了……（真的有人会把它们弄混吗）</p><h3 id="月4级">6月4级</h3><p>选择判断很简单，编程AC了一道题，最后居然59全国第536……<del>€€£你给我出来挨打！！！</del></p><h3 id="月4级-1">9月4级</h3><p>跟6月一样，这次69了……</p><h3 id="月5级">12月5级</h3><p>没法跳级，但至少能考。</p><p>这次是团报。</p><p>选择判断还是那么弱。</p><p>编程题T1从4级的AC25--&gt;15，T2居然从4级的0--&gt;20（考场数据<del>很弱</del>对选手很友好，以后继续这样）。</p><p>团报能提前查分，73。</p><h1 id="abc">ABC</h1><p>考点：家里</p><p>最开始327、328两场AC了C题就以为自己能稳定做出C，实际是做出C是偶然情况，祭。</p><link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+      
+      
+      <categories>
+          
+          <category> 年度游寄 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>几种最短路算法对比</title>
+      <link href="/2024/01/25/ji-chong-zui-duan-lu-suan-fa-dui-bi/"/>
+      <url>/2024/01/25/ji-chong-zui-duan-lu-suan-fa-dui-bi/</url>
+      
+        <content type="html"><![CDATA[<div class="note warning"><p>众所周知，关于SPFA，它死了。</p></div><span id="more"></span><p>几种最短路算法对比：</p><table><colgroup><col style="width: 20%"><col style="width: 20%"><col style="width: 20%"><col style="width: 20%"><col style="width: 20%"></colgroup><thead><tr class="header"><th style="text-align: center;">名称</th><th style="text-align: center;">时间复杂度</th><th style="text-align: center;">优点</th><th style="text-align: center;">缺点</th><th style="text-align: center;">使用情况</th></tr></thead><tbody><tr class="odd"><td style="text-align: center;">Floyd-Warshall</td><td style="text-align: center;"><span class="math inline">\(O(n ^3)\)</span></td><td style="text-align: center;">仅有的多源最短路径算法（即跑一遍Floyd能求出每个点到其它点的距离）、其核心代码就5 行</td><td style="text-align: center;">时间复杂度过高</td><td style="text-align: center;">多源最短路、对时间复杂度没要求</td></tr><tr class="even"><td style="text-align: center;">Dijkstra</td><td style="text-align: center;"><span class="math inline">\(O(n ^2)\)</span></td><td style="text-align: center;">时间复杂度比较低，具有良好的可扩展性</td><td style="text-align: center;">编码复杂度非常高、不能处理负权，即边的权值是负数的情况（跟它用的是贪心有关）</td><td style="text-align: center;">稠密图且是单源最短路、对时间复杂度有要求</td></tr><tr class="odd"><td style="text-align: center;">Bellman-Ford</td><td style="text-align: center;"><span class="math inline">\(O(nm)\)</span></td><td style="text-align: center;"><del>我个人</del>比较喜欢的算法，能处理负权，时间复杂度还行，而且核心代码只有4 行</td><td style="text-align: center;">跟Dijkstra时间复杂度互有胜负，有时还是Dijkstra赢了</td><td style="text-align: center;">稀疏图</td></tr><tr class="even"><td style="text-align: center;">SPFA</td><td style="text-align: center;">最坏也是 <span class="math inline">\(O(nm)\)</span></td><td style="text-align: center;">优化版Bellman-Ford</td><td style="text-align: center;">众所周知，它死了</td><td style="text-align: center;">别用</td></tr><tr class="odd"><td style="text-align: center;">BFS</td><td style="text-align: center;"><span class="math inline">\(O(n +m)\)</span></td><td style="text-align: center;">思路简单</td><td style="text-align: center;">只能处理等权图或无权图</td><td style="text-align: center;">等权图/无权图</td></tr></tbody></table><p>注：<span class="math inline">\(n\)</span> 为点的个数，<span class="math inline">\(m\)</span> 为边的个数。</p><link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>B3929 [GESP202312 五级] 小杨的幸运数 题解</title>
+      <link href="/2024/01/25/b3929-gesp202312-wu-ji-xiao-yang-de-xing-yun-shu-ti-jie/"/>
+      <url>/2024/01/25/b3929-gesp202312-wu-ji-xiao-yang-de-xing-yun-shu-ti-jie/</url>
+      
+        <content type="html"><![CDATA[<p>因为一些众所周知的原因，不放代码。 <span id="more"></span> ---</p><p>分享一种考场思路：</p><p><span class="math inline">\(a \le 10^7\)</span>，顺序查找肯定会废，所以可以用一种类似埃氏筛的方法将所有满足条件的数标记一下，并将其加入一个答案数组<span class="math inline">\(a\)</span>当中。然后每次查询只需要用<code>lower_bound</code>函数二分查找一下，假如找到了第<span class="math inline">\(i\)</span> 个：</p><p><span class="math inline">\(a_i = x\)</span>, 直接输出；</p><p>否则，比较 <span class="math inline">\(\mid a_{i - 1} - x\mid\)</span> 和 <span class="math inline">\(\mid a_i - x\mid\)</span>，看看那个差值小输出。</p><p>最后算一下时间复杂度：预处理部分比埃氏筛快，查找部分二分时间复杂度最坏<span class="math inline">\(O(N \log m)\)</span>，其中 <span class="math inline">\(m\)</span>就是查找出来的满足条件数数组大小，经计算，<span class="math inline">\(m\)</span> 最坏是 <span class="math inline">\(500\)</span> 左右，乘 <span class="math inline">\(N\)</span> 显然是因为有 <span class="math inline">\(N\)</span> 次查询，最后是 <span class="math inline">\(O(a \log \log a + N \log m)\)</span> 不到，不会TLE。</p><link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+      
+      
+      <categories>
+          
+          <category> 题解 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> C艹 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>我艹，这么多良心软件都在GitHub上，你却打都打不开？</title>
       <link href="/2024/01/25/wo-cao-zhe-me-duo-liang-xin-ruan-jian-du-zai-github-shang-ni-que-da-du-da-bu-kai/"/>
       <url>/2024/01/25/wo-cao-zhe-me-duo-liang-xin-ruan-jian-du-zai-github-shang-ni-que-da-du-da-bu-kai/</url>
       
-        <content type="html"><![CDATA[<h1 id="github为何物">0 GitHub为何物？</h1><p>Git是一个代码管理工具。GitHub上自带Git，可以上传代码，上面囤积了不少高质量开源项目，比如<a href="https://github.com/luogu-dev/cyaron" title="你谷的CYaRon">你谷的CYaRon</a>。 <span id="more"></span> # 1有啥缺点不？</p><p>有啊，国内裸网打不开……<del>设计墙这东西的那个S13出来挨打！！！</del></p><h1 id="咋办呢">2 咋办呢？</h1><h2 id="挂梯子">2.0 挂梯子</h2><p>愁，是一堵矮矮的墙。我在这头，GitHub在那头（doge</p><p>那你架个梯子把墙翻过去不就得了？</p><h3 id="优点">2.0.0 优点</h3><p>简单粗暴，能够访问其它站点</p><h3 id="缺点">2.0.1 缺点</h3><ol type="1"><li>大部分梯子都要付钱</li><li>免费的梯子不好找，一般还不太稳定</li><li><strong>外挂梯子是违法行为</strong></li></ol><p><img src="/img/IMG_1005.PNG"></p><h2 id="watt-toolkit">2.1 Watt Toolkit</h2><p><a href="https://steampp.net/">在这里~</a></p><h3 id="优点-1">2.1.0 优点</h3><ol type="1"><li>服务比较稳定</li><li>免费</li><li>由正规公司开发，通过了微软的审核，不会逝</li><li>能加速部分其他站点，但像谷歌全家桶这样的就算了……</li></ol><h3 id="缺点-1">2.1.1 缺点</h3><ol type="1"><li>还是可能会崩</li></ol><div class="spoiler collapsed">    <div class="spoiler-title">        讲点别的——Watt Toolkit什么能加速？    </div>    <div class="spoiler-content">        <p>Watt Toolkit什么能加速？</p><p>这得说到GitHub为什么访问慢。其实GitHub在日本、韩国这些地方有服务器，离咱们近，自然访问快。但GitHub配置的DNS（有多个服务器时帮你选择服务器的服务）比较奇葩，会把你导到美国的服务器去，很容易就TLE了。</p><p>而另一个关键是Hosts文件，你可以在此修改一些网络配置。比如以<code>站点地址 服务器IP</code>的格式让所有访问这个地址的请求在本机上转移到你指定的服务器。所以我们拿到日韩的服务器IP地址，再修改Hosts就可以实现加速了。</p><p>WattToolkit其实就是实现这个过程的自动化脚本，但有图形化界面。<del>不会的可以看<a href="https://leo2011.pages.dev/2024/01/01/pythongui-tu-xing-hua-jie-mian-xiang-jie/">这篇简介</a>。</del></p>    </div></div><h2 id="steamcommunity-302">2.2 Steamcommunity 302</h2><p><a href="https://www.dogfight360.com/blog/knowledge-base/steamcommunity_302_manual/">这里~</a>。</p><h3 id="优点-2">2.2.0 优点</h3><ol type="1"><li>比较稳定、免费、能加速一些别的</li></ol><h3 id="缺点-2">2.2.1 缺点</h3><ol type="1"><li>Watt Toolkit与这个互相不兼容，即不能同时开启两个</li><li><del>我个人认为</del>UI有那么亿点点简陋……</li></ol><h2 id="fastgithub">2.3 FastGitHub</h2><p><del>原GitHub库已消失，只能在<a href="https://github.com/ylong52/fastgithub_win">这里找到</a></del></p><h3 id="优点-3">2.3.0 优点</h3><ol type="1"><li>纯粹</li><li>如果加速不成功能显示报错信息</li><li>与上面两个兼容</li></ol><h3 id="缺点-3">2.3.1 缺点</h3><ol type="1"><li>名字就能看出只加速GitHub</li><li>这项目本身就TM托管在GitHub上……<del>这作者有脑子，但不多</del></li></ol><h1 id="总结">3 总结</h1><p>一张表，拿走：</p><table><colgroup><col style="width: 25%"><col style="width: 25%"><col style="width: 25%"><col style="width: 25%"></colgroup><thead><tr class="header"><th style="text-align: center;">方式</th><th style="text-align: center;">网址</th><th style="text-align: center;">优点</th><th style="text-align: center;">缺点</th></tr></thead><tbody><tr class="odd"><td style="text-align: center;">挂梯子</td><td style="text-align: center;">-</td><td style="text-align: center;">能访问所有外国站点，简单粗暴</td><td style="text-align: center;"><strong>违法</strong>、付费、免费的不稳定、有些加速器的“智能路由模式”非常智障</td></tr><tr class="even"><td style="text-align: center;">Watt Toolkit</td><td style="text-align: center;"><a href="https://steampp.net/">https://steampp.net/</a></td><td style="text-align: center;">能加速一些别的、稳定、安全</td><td style="text-align: center;">还是可能会崩</td></tr><tr class="odd"><td style="text-align: center;">Steamcommunity 302</td><td style="text-align: center;"><a href="https://www.dogfight360.com/blog/knowledge-base/steamcommunity_302_manual/">https://www.dogfight360.com/blog/knowledge-base/steamcommunity_302_manual/</a></td><td style="text-align: center;">同Watt Toolkit</td><td style="text-align: center;">与Watt Toolkit不兼容、UI比较丑</td></tr><tr class="even"><td style="text-align: center;">FastGitHub</td><td style="text-align: center;">已消失，但可以在<a href="https://github.com/ylong52/fastgithub_win">https://github.com/ylong52/fastgithub_win</a>下载</td><td style="text-align: center;">纯粹、能显示报错信息，与上面两个兼容</td><td style="text-align: center;">只能加速GitHub、原GitHub项目已消失</td></tr></tbody></table><link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+        <content type="html"><![CDATA[<h1 id="github为何物">GitHub为何物？</h1><p>Git是一个代码管理工具。GitHub上自带Git，可以上传代码，上面囤积了不少高质量开源项目，比如<a href="https://github.com/luogu-dev/cyaron" title="你谷的CYaRon">你谷的CYaRon</a>。 <span id="more"></span></p><h1 id="有啥缺点不">有啥缺点不？</h1><p>有啊，国内裸网打不开……<del>设计墙这东西的那个S13出来挨打！！！</del></p><h1 id="咋办呢">咋办呢？</h1><h2 id="挂梯子">挂梯子</h2><p>愁，是一堵矮矮的墙。我在这头，GitHub在那头（doge</p><p>那你架个梯子把墙翻过去不就得了？</p><h3 id="优点">优点</h3><p>简单粗暴，能够访问其它站点</p><h3 id="缺点">缺点</h3><ol type="1"><li>大部分梯子都要付钱</li><li>免费的梯子不好找，一般还不太稳定</li><li><strong>外挂梯子是违法行为</strong></li></ol><p><img src="/img/IMG_1005.PNG"></p><h2 id="watt-toolkit">Watt Toolkit</h2><p><a href="https://steampp.net/">在这里~</a></p><h3 id="优点-1">优点</h3><ol type="1"><li>服务比较稳定</li><li>免费</li><li>由正规公司开发，通过了微软的审核，不会逝</li><li>能加速部分其他站点，但像谷歌全家桶这样的就算了……</li></ol><h3 id="缺点-1">缺点</h3><ol type="1"><li>还是可能会崩</li></ol><div class="spoiler collapsed">    <div class="spoiler-title">        讲点别的——Watt Toolkit什么能加速？    </div>    <div class="spoiler-content">        <p>Watt Toolkit什么能加速？</p><p>这得说到GitHub为什么访问慢。其实GitHub在日本、韩国这些地方有服务器，离咱们近，自然访问快。但GitHub配置的DNS（有多个服务器时帮你选择服务器的服务）比较奇葩，会把你导到美国的服务器去，很容易就TLE了。</p><p>而另一个关键是Hosts文件，你可以在此修改一些网络配置。比如以<code>站点地址 服务器IP</code>的格式让所有访问这个地址的请求在本机上转移到你指定的服务器。所以我们拿到日韩的服务器IP地址，再修改Hosts就可以实现加速了。</p><p>WattToolkit其实就是实现这个过程的自动化脚本，但有图形化界面。<del>不会的可以看<a href="https://leo2011.pages.dev/2024/01/01/pythongui-tu-xing-hua-jie-mian-xiang-jie/">这篇简介</a>。</del></p>    </div></div><h2 id="steamcommunity-302">Steamcommunity 302</h2><p><a href="https://www.dogfight360.com/blog/knowledge-base/steamcommunity_302_manual/">这里~</a>。</p><h3 id="优点-2">优点</h3><ol type="1"><li>比较稳定、免费、能加速一些别的</li></ol><h3 id="缺点-2">缺点</h3><ol type="1"><li>Watt Toolkit与这个互相不兼容，即不能同时开启两个</li><li><del>我个人认为</del>UI有那么亿点点简陋……</li></ol><h2 id="fastgithub">FastGitHub</h2><p><del>原GitHub库已消失，只能在<a href="https://github.com/ylong52/fastgithub_win">这里找到</a></del></p><h3 id="优点-3">优点</h3><ol type="1"><li>纯粹</li><li>如果加速不成功能显示报错信息</li><li>与上面两个兼容</li></ol><h3 id="缺点-3">缺点</h3><ol type="1"><li>名字就能看出只加速GitHub</li><li>这项目本身就TM托管在GitHub上……<del>这作者有脑子，但不多</del></li></ol><h1 id="总结">总结</h1><p>一张表，拿走：</p><table><colgroup><col style="width: 25%"><col style="width: 25%"><col style="width: 25%"><col style="width: 25%"></colgroup><thead><tr class="header"><th style="text-align: center;">方式</th><th style="text-align: center;">网址</th><th style="text-align: center;">优点</th><th style="text-align: center;">缺点</th></tr></thead><tbody><tr class="odd"><td style="text-align: center;">挂梯子</td><td style="text-align: center;">-</td><td style="text-align: center;">能访问所有外国站点，简单粗暴</td><td style="text-align: center;"><strong>违法</strong>、付费、免费的不稳定、有些加速器的“智能路由模式”非常智障</td></tr><tr class="even"><td style="text-align: center;">Watt Toolkit</td><td style="text-align: center;"><a href="https://steampp.net/">https://steampp.net/</a></td><td style="text-align: center;">能加速一些别的、稳定、安全</td><td style="text-align: center;">还是可能会崩</td></tr><tr class="odd"><td style="text-align: center;">Steamcommunity 302</td><td style="text-align: center;"><a href="https://www.dogfight360.com/blog/knowledge-base/steamcommunity_302_manual/">https://www.dogfight360.com/blog/knowledge-base/steamcommunity_302_manual/</a></td><td style="text-align: center;">同Watt Toolkit</td><td style="text-align: center;">与Watt Toolkit不兼容、UI比较丑</td></tr><tr class="even"><td style="text-align: center;">FastGitHub</td><td style="text-align: center;">已消失，但可以在<a href="https://github.com/ylong52/fastgithub_win">https://github.com/ylong52/fastgithub_win</a>下载</td><td style="text-align: center;">纯粹、能显示报错信息，与上面两个兼容</td><td style="text-align: center;">只能加速GitHub、原GitHub项目已消失</td></tr></tbody></table><link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
       
       
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>hexo-sliding-spoiler演示</title>
+      <link href="/2024/01/24/hexo-sliding-spoiler-yan-shi/"/>
+      <url>/2024/01/24/hexo-sliding-spoiler-yan-shi/</url>
+      
+        <content type="html"><![CDATA[<div class="spoiler collapsed">    <div class="spoiler-title">        可以折叠词    </div>    <div class="spoiler-content">        <p>content</p>    </div></div><div class="spoiler collapsed">    <div class="spoiler-title">        也支持Markdown语法    </div>    <div class="spoiler-content">        <p><del>删除线</del></p><p><strong>加粗</strong></p><p><em>斜体</em></p><h3 id="标题党也行">标题党也行</h3><p>图片<img src="/img/g.jpg" alt="图片"> 和<a href="https://github.com/fletchto99/hexo-sliding-spoiler">链接</a>也都支持1. 有序序列 - 无序序列</p><p>当然，最主要的还是代码块，这个也是支持高亮的（如果你有用）</p><figure class="highlight python"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">"Hello World!"</span>)</span><br></pre></td></tr></tbody></table></figure><p></p>    </div></div><div class="spoiler collapsed">    <div class="spoiler-title">        MathJax也支持（如果你博客支持它就支持！）    </div>    <div class="spoiler-content">        <p><span class="math inline">\(2 ^ {10} = 1024\)</span></p>    </div></div><link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 测试 </tag>
+            
+        </tags>
       
     </entry>
     

@@ -3,27 +3,28 @@ title: 我艹，这么多良心软件都在GitHub上，你却打都打不开？
 date: 2024-01-25 19:43:01
 tags:
 ---
-# 0 GitHub为何物？
+# GitHub为何物？
 
 Git是一个代码管理工具。GitHub上自带Git，可以上传代码，上面囤积了不少高质量开源项目，比如[你谷的CYaRon](https://github.com/luogu-dev/cyaron "你谷的CYaRon")。
 <!-- more -->
-# 1 有啥缺点不？
+
+# 有啥缺点不？
 
 有啊，国内裸网打不开……~~设计墙这东西的那个S13出来挨打！！！~~
 
-# 2 咋办呢？
+# 咋办呢？
 
-## 2.0 挂梯子
+## 挂梯子
 
 愁，是一堵矮矮的墙。我在这头，GitHub在那头（doge
 
 那你架个梯子把墙翻过去不就得了？
 
-### 2.0.0 优点
+### 优点
 
 简单粗暴，能够访问其它站点
 
-### 2.0.1 缺点
+### 缺点
 
 1. 大部分梯子都要付钱
 2. 免费的梯子不好找，一般还不太稳定
@@ -31,17 +32,17 @@ Git是一个代码管理工具。GitHub上自带Git，可以上传代码，上�
 
 ![](/img/IMG_1005.PNG)
 
-## 2.1 Watt Toolkit
+## Watt Toolkit
 
 [在这里~](https://steampp.net/)
 
-### 2.1.0 优点
+### 优点
 1. 服务比较稳定
 2. 免费
 3. 由正规公司开发，通过了微软的审核，不会逝
 4. 能加速部分其他站点，但像谷歌全家桶这样的就算了……
 
-### 2.1.1 缺点
+### 缺点
 1. 还是可能会崩
 
 {% spoiler "讲点别的——Watt Toolkit什么能加速？" %}
@@ -54,35 +55,35 @@ Watt Toolkit什么能加速？
 Watt Toolkit其实就是实现这个过程的自动化脚本，但有图形化界面。~~不会的可以看[这篇简介](https://leo2011.pages.dev/2024/01/01/pythongui-tu-xing-hua-jie-mian-xiang-jie/)。~~
 {% endspoiler %}
 
-## 2.2 Steamcommunity 302
+## Steamcommunity 302
 
 [这里~](https://www.dogfight360.com/blog/knowledge-base/steamcommunity_302_manual/)。
 
-### 2.2.0 优点
+### 优点
 
 1. 比较稳定、免费、能加速一些别的
 
-### 2.2.1 缺点
+### 缺点
 
 1. Watt Toolkit与这个互相不兼容，即不能同时开启两个
 2. ~~我个人认为~~UI有那么亿点点简陋……
 
-## 2.3 FastGitHub
+## FastGitHub
 
 ~~原GitHub库已消失，只能在[这里找到](https://github.com/ylong52/fastgithub_win)~~
 
-### 2.3.0 优点
+### 优点
 
 1. 纯粹
 2. 如果加速不成功能显示报错信息
 3. 与上面两个兼容
 
-### 2.3.1 缺点
+### 缺点
 
 1. 名字就能看出只加速GitHub
 2. 这项目本身就TM托管在GitHub上……~~这作者有脑子，但不多~~
 
-# 3 总结
+# 总结
 
 一张表，拿走：
 
