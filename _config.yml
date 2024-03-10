@@ -8,8 +8,7 @@ subtitle: '许许多多的平凡加在一起，就成了不平凡。'
 description: '六年级的蒟蒻QwQ'
 keywords: C, C++, CSS, Python
 author: Leo2011
-language: 
-- zh-CN
+language: zh-CN
 timezone: 'Asia/Shanghai'
 
 # URL
@@ -31,7 +30,6 @@ code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
 - admin/**
-- 404.md
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -212,6 +210,16 @@ excerpt:
   excerpt_excludes: []
   more_excludes: []
   hideWholePostExcerpts: false
+
+moon_menu:
+  back2top:
+    enable: true
+    icon: fas fa-chevron-up
+    order: -1
+  back2bottom:
+    enable: true
+    icon: fas fa-chevron-down
+    order: -2
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
